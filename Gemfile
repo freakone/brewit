@@ -21,3 +21,4 @@ gem 'gate'
 gem 'responders'
 gem 'sidekiq'
 gem 'sinatra', require: nil
+gem 'puma'
