@@ -39,6 +39,8 @@ module Appeczka
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    config.neo4j.session_type = :server_db
+    config.neo4j.session_path = 'http://brewit:4Wfo9hbge34CiO3nVoey@brewit.sb04.stations.graphenedb.com:24789' || 'http://localhost:7474'
     config.active_job.queue_adapter = :sidekiq
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
