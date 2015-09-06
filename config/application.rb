@@ -18,7 +18,7 @@ Bundler.require(*Rails.groups)
 
 module Appeczka
   class Application < Rails::Application
-    
+
     config.generators do |g|
       g.orm             :neo4j
     end
@@ -39,5 +39,15 @@ module Appeczka
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :authentication => :plain,
+    :address => "smtp.mailgun.org",
+    :port => 587,
+    :domain => "no-reply.brewit.pl",
+    :user_name => "postmaster@no-reply.brewit.pl",
+    :password => "0937734dd2bcb5ced6efe451bd178153"
+  }
   end
 end

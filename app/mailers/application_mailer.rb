@@ -1,3 +1,3 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: "no-reply@brewit.co"
+  default from: "services@no-reply.brewit.pl"
 end
