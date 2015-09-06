@@ -13,7 +13,7 @@ module Api
         result = gate.verify(params)
         if result.valid?
           beta_user = BetaUser.create!(result.attributes)
-          BetaUserMailer.welcome_email(beta_user).deliver_now
+          BetaUserMailer.welcome_email(beta_user).deliver_later
           render json: beta_user, status: 201
         else
           render json: {status: "error", message: "Invalid params" }, status: 400
