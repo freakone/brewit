@@ -7,7 +7,7 @@ module Api
 
       def create
         gate = Gate.rules do
-          required :name
+          optional :name
           required :email
         end
         result = gate.verify(params)
