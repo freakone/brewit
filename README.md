@@ -71,20 +71,21 @@
     * Other (4)
     * Water Agent (5)
 * Unit
-    * pieces (13)
-    * liters (2 * 0.0295735)
-    * cups
     * grams (1)
+    * liters (2 * 0.0295735)
     * teaspoon (6)
     * tablespoon (7)
+    * pieces (13)
+    * cups
 * Notes
 * Qty/l
 * Use
-    * Boil
-    * Mash
-    * Primary
-    * Secondary
-    * Bottling
+    * Boil (0)
+    * Mash (1)
+    * Primary (2)
+    * Secondary (3)
+    * Bottling (4)
+* Use for (string)
 * Time
 * Time Unit
     * minutes (0)
