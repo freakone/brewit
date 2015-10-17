@@ -30,6 +30,7 @@ gem 'neo4j', '~> 5.2.10'
 gem 'devise-neo4j'
 gem 'omniauth'
 gem 'omniauth-facebook'
+gem 'omniauth-google-oauth2'
 
 gem 'gate'
 gem 'responders'

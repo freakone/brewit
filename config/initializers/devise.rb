@@ -16,7 +16,12 @@ Devise.setup do |config|
   config.omniauth :facebook,
     Rails.application.secrets.omniauth["facebook_id"],
     Rails.application.secrets.omniauth["facebook_secret"],
-    scope: 'email', info_fields: 'email, name'
+      scope: 'email', info_fields: 'email, name'
+
+  config.omniauth :google_oauth2,
+    Rails.application.secrets.omniauth["google_id"],
+    Rails.application.secrets.omniauth["google_secret"],
+      scope: 'email'
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
