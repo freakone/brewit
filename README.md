@@ -113,6 +113,7 @@
 
 ### Receipe ###
 * Name (string)
+* Target Volume [liters] (integer)
 * Grain (list of grains)
     * ammount [kg]
 * Type (exclusive)
