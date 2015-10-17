@@ -40,20 +40,20 @@
 * Lab (string)
 * ID (string)
 * Type (exclusive)
-    * Ale
-    * Lager
-    * Wine
-    * Champagne
-    * Wheat
+    * Ale (0)
+    * Lager(1)
+    * Wine(2)
+    * Champagne (3)
+    * Wheat(4)
 * Form (exclusive)
-    * Liquid
-    * Dry
+    * Liquid (0)
+    * Dry (1)
     * Slant
     * Culture
 * Flocculation (exclusive)
-    * Low
-    * Medium
-    * High
+    * Low (0)
+    * Medium (1)
+    * High (2)
 * Min. Attenuation (float)
 * Max. Attenuation (float)
 * Min. Temperature (float)
@@ -61,5 +61,32 @@
 * Best for (Styles list)
 * Notes (string)
 
-### Style ###
-* 
+### Miscs ###
+* Name (string)
+* Type (exclusive)
+    * Spice (0)
+    * Fining (1)
+    * Herb (2)
+    * Flavor (3)
+    * Other (4)
+    * Water Agent (5)
+* Unit
+    * pieces (13)
+    * liters (2 * 0.0295735)
+    * cups
+    * grams (1)
+    * teaspoon (6)
+    * tablespoon (7)
+* Notes
+* Qty/l
+* Use
+    * Boil
+    * Mash
+    * Primary
+    * Secondary
+    * Bottling
+* Time
+* Time Unit
+    * minutes (0)
+    * hours (1)
+    * days (2)
