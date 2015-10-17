@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "picture": "http://www.erichdoubek.com/emmanuel/wp-content/uploads/2011/09/shaker-pint.jpg",
+    "time": 52,
+    "score": 5,
+    "difficulty": "hardcore",
+    "process": "labore laborum",
+    "name": "CoffeeStouter",
+    "user_style": "id deserunt labore consectetur",
+    "style": "nulla excepteur do",
+    "author": {
+      "first_name": "Petra",
+      "last_name": "Boyer"
+    },
+    "origin": "Canada",
+    "taste": 2,
+    "bitterness": 4,
+    "aroma": 5,
+    "foam": 3,
+    "purity": 1,
+    "hops": "Isoternia",
+    "malts": "Senmao",
+    "yeasts": "US-05 Fermentis Dry Powder",
+    "add_ons": "none",
+    "recipe_by_step": [
+      "Lorem ipsum",
+      "Dolor sit amet",
+      "Duis vulputate commodo",
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+    ],
+    "impression": "Aliqua duis velit non incididunt dolor. Fugiat proident exercitation mollit veniam qui minim in excepteur eiusmod commodo. Esse magna dolor nostrud consequat ut. Commodo pariatur aliquip nostrud minim reprehenderit occaecat non ad do. Occaecat laboris voluptate occaecat excepteur aute. Ullamco pariatur commodo consectetur velit irure esse ipsum commodo nulla eiusmod ipsum.",
+    "created_at": "Saturday, September 27, 2014 10:33 AM",
+    "tags": [
+      "laboris",
+      "consequat",
+      "ullamco",
+      "voluptate",
+      "non"
+    ]
+  }
+]

@@ -1,0 +1,114 @@
+.row
+  img.columns.small-12 src="http://placehold.it/1200x200"
+
+.row
+  .columns.small-12
+    ui.tabs
+      li.tab-title.active: a href="#" General Information
+      li.tab-title: a href="#" Specific Batch Notes
+
+    .tabs-content
+      .content
+
+      .content.active
+        .row
+          .columns.small-12.text-center
+            h1 ng-bind="::recipe.data.name"
+            h3
+              | {{ ::recipe.data.user_style }} – {{ ::recipe.data.process }}
+
+        .row
+          .columns.small-12.medium-3
+            img ng-src="{{recipe.data.picture}}"
+            .scale--heart.scale--small
+              / TODO: Fix this crappy solution
+              i.scale__element.fa ng-class="{ 'fa-heart': recipe.data.score > 0, 'fa-heart-o': recipe.data.score < 1 }"
+              i.scale__element.fa ng-class="{ 'fa-heart': recipe.data.score > 1, 'fa-heart-o': recipe.data.score < 2 }"
+              i.scale__element.fa ng-class="{ 'fa-heart': recipe.data.score > 2, 'fa-heart-o': recipe.data.score < 3 }"
+              i.scale__element.fa ng-class="{ 'fa-heart': recipe.data.score > 3, 'fa-heart-o': recipe.data.score < 4 }"
+              i.scale__element.fa ng-class="{ 'fa-heart': recipe.data.score > 4, 'fa-heart-o': recipe.data.score < 5 }"
+          .columns.small-12.medium-9
+            ul.no-bullet
+              li
+                | Hops: {{ ::recipe.data.hops }}
+              li
+                | Malts: {{ ::recipe.data.malts }}
+              li
+                | Yeast: {{ ::recipe.data.yeasts }}
+              li
+                | Add-on: {{ ::recipe.data.add_ons }}
+
+        .row
+          .columns.small-12
+            h4 Overall impression
+            p ng-bind="::recipe.data.impression"
+
+            ul.small-block-grid-2.medium-block-grid-5
+              li.text-center
+                p Taste overall
+                .scale.scale--tiny.scale--stars
+                  / TODO: Fix this crappy solution
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.taste > 0, 'fa-star-o': recipe.data.taste < 1 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.taste > 1, 'fa-star-o': recipe.data.taste < 2 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.taste > 2, 'fa-star-o': recipe.data.taste < 3 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.taste > 3, 'fa-star-o': recipe.data.taste < 4 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.taste > 4, 'fa-star-o': recipe.data.taste < 5 }"
+              li.text-center
+                p Bitterness
+                .scale.scale--tiny.scale--stars
+                  / TODO: Fix this crappy solution
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.bitterness > 0, 'fa-star-o': recipe.data.bitterness < 1 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.bitterness > 1, 'fa-star-o': recipe.data.bitterness < 2 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.bitterness > 2, 'fa-star-o': recipe.data.bitterness < 3 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.bitterness > 3, 'fa-star-o': recipe.data.bitterness < 4 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.bitterness > 4, 'fa-star-o': recipe.data.bitterness < 5 }"
+              li.text-center
+                p Aroma
+                .scale.scale--tiny.scale--stars
+                  / TODO: Fix this crappy solution
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.aroma > 0, 'fa-star-o': recipe.data.aroma < 1 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.aroma > 1, 'fa-star-o': recipe.data.aroma < 2 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.aroma > 2, 'fa-star-o': recipe.data.aroma < 3 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.aroma > 3, 'fa-star-o': recipe.data.aroma < 4 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.aroma > 4, 'fa-star-o': recipe.data.aroma < 5 }"
+              li.text-center
+                p Foam
+                .scale.scale--tiny.scale--stars
+                  / TODO: Fix this crappy solution
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.foam > 0, 'fa-star-o': recipe.data.foam < 1 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.foam > 1, 'fa-star-o': recipe.data.foam < 2 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.foam > 2, 'fa-star-o': recipe.data.foam < 3 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.foam > 3, 'fa-star-o': recipe.data.foam < 4 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.foam > 4, 'fa-star-o': recipe.data.foam < 5 }"
+              li.text-center
+                p Purity
+                .scale.scale--tiny.scale--stars
+                  / TODO: Fix this crappy solution
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.purity > 0, 'fa-star-o': recipe.data.purity < 1 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.purity > 1, 'fa-star-o': recipe.data.purity < 2 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.purity > 2, 'fa-star-o': recipe.data.purity < 3 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.purity > 3, 'fa-star-o': recipe.data.purity < 4 }"
+                  i.scale__element.fa ng-class="{ 'fa-star': recipe.data.purity > 4, 'fa-star-o': recipe.data.purity < 5 }"
+
+        .row
+          .columns.small-12
+            h4 Step by Step Receipe
+            ul.square
+              li ng-repeat="step in recipe.data.recipe_by_step"
+                | {{ step }}
+
+        .row
+          .columns.small-12
+            h1 tu wykres
+
+        .row
+          .columns.small-12.text-center
+            button.button.large Brew It
+
+.row
+  .columns.small-12.text-center
+    p
+      | Didn't find what you're looking for?
+      a<> href="#" Add it for our community
+      | |
+      a< href="#" Make a request

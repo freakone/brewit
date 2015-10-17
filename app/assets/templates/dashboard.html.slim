@@ -1,0 +1,83 @@
+.row
+  img.columns.small-12 src="http://lorempixel.com/1200/200/cats/"
+
+.row
+  .columns.small-12
+    label
+      | Search
+      input type="text" placeholder="search" ng-model="dashboard.searchQuery"
+
+    .row
+      .columns.small-12.medium-4
+        label
+          | Hop
+          select ng-model="dashboard.searchHop"
+            option value="" Any Hop
+            option value="Eyewax" Eyewax
+            option value="equinox" Husker
+            option value="equinox" Starbuck
+            option value="equinox" Hot Dog
+
+      .columns.small-12.medium-4
+        label
+          | Malt
+          select ng-model="dashboard.searchMalt"
+            option value="" Any Malt
+            option value="equinox" Barley
+            option value="equinox" Husker
+            option value="equinox" Starbuck
+            option value="equinox" Hot Dog
+
+      .columns.small-12.medium-4
+        label
+          | Origin
+          select ng-model="dashboard.searchOrigin"
+            option value="" Any origin
+            option value="equinox" Husker
+            option value="equinox" Starbuck
+            option value="equinox" Hot Dog
+
+    / TODO: No need for this right now
+    / .row
+    /   .columns.small-12.text-center
+    /     button.button Search
+
+    .row
+      .columns.small-12.text-center
+        a.button ui-sref="newRecipe" Or add new recipte
+
+.row
+  .columns.small-12.text-center
+    .panel ng-repeat="recipe in dashboard.recipes | filter:{name:dashboard.searchQuery, hops:dashboard.searchHop}"
+      .row
+        .columns.small-12.medium-3
+          a ui-sref="recipe({ recipeId: recipe.id })"
+            img ng-src="{{recipe.picture}}"
+
+        .columns.small-12.medium-6.text-center
+          a ui-sref="recipe({ recipeId: recipe.id })"
+            h2 ng-bind="::recipe.name"
+          p ng-bind="::recipe.user_style"
+
+          small> ng-bind="::recipe.process"
+          small< ng-bind="::recipe.diffculty"
+
+        .columns.small-12.medium-3
+          .scale--heart
+            / TODO: Fix this crappy solution
+            i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 0, 'fa-heart-o': recipe.score < 1 }"
+            i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 1, 'fa-heart-o': recipe.score < 2 }"
+            i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 2, 'fa-heart-o': recipe.score < 3 }"
+            i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 3, 'fa-heart-o': recipe.score < 4 }"
+            i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 4, 'fa-heart-o': recipe.score < 5 }"
+
+
+    .button.small Load more...
+
+.row
+  .columns.small-12.text-center
+    p
+      | Didn't find what you're looking for?
+      a<> href="#" Add it for our community
+      | |
+      a< href="#" Make a request

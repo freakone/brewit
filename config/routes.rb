@@ -12,4 +12,6 @@ Rails.application.routes.draw do
       resources :beta_users, only: [:index, :create]
     end
   end
+
+  get '*path', to: 'app#index'
 end

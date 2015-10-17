@@ -1,0 +1,218 @@
+[
+  {
+    "id": 0,
+    "picture": "http://www.erichdoubek.com/emmanuel/wp-content/uploads/2011/09/shaker-pint.jpg",
+    "time": 529,
+    "score": 5,
+    "difficulty": "hard",
+    "process": "adipisicing fugiat",
+    "name": "elit",
+    "user_style": "id incididunt nulla voluptate",
+    "style": "consectetur incididunt exercitation",
+    "author": {
+      "first_name": "Vinson",
+      "last_name": "Reyes"
+    },
+    "hops": "Gushkool",
+    "malts": "Poshome",
+    "origin": "Trinidad and Tobago",
+    "description": "Magna sunt pariatur officia aliqua sint. Fugiat nisi enim culpa voluptate nostrud laboris ut reprehenderit mollit incididunt labore mollit pariatur. Dolor non non ex eiusmod eu incididunt. Adipisicing non tempor ea tempor ex aute dolor amet dolore.",
+    "created_at": "Friday, August 8, 2014 12:28 PM",
+    "tags": [
+      "sint",
+      "aliqua",
+      "ipsum",
+      "exercitation",
+      "veniam"
+    ]
+  },
+  {
+    "id": 1,
+    "picture": "http://www.erichdoubek.com/emmanuel/wp-content/uploads/2011/09/shaker-pint.jpg",
+    "time": 111,
+    "score": 1,
+    "difficulty": "hardcore",
+    "process": "et aliquip",
+    "name": "esse",
+    "user_style": "deserunt do labore adipisicing",
+    "style": "consectetur amet sunt",
+    "author": {
+      "first_name": "Sweeney",
+      "last_name": "Lynch"
+    },
+    "hops": "Prowaste",
+    "malts": "Lyrichord",
+    "origin": "Sao Tome and Principe",
+    "description": "Irure proident nulla nulla nulla aute. Tempor irure aute mollit labore. Est commodo cillum sint velit et aute. Culpa exercitation anim deserunt culpa commodo aliqua.",
+    "created_at": "Saturday, March 22, 2014 9:11 AM",
+    "tags": [
+      "sint",
+      "aliqua",
+      "ipsum",
+      "exercitation",
+      "veniam"
+    ]
+  },
+  {
+    "id": 2,
+    "picture": "http://www.erichdoubek.com/emmanuel/wp-content/uploads/2011/09/shaker-pint.jpg",
+    "time": 280,
+    "score": 0,
+    "difficulty": "medium",
+    "process": "anim ullamco",
+    "name": "mollit",
+    "user_style": "anim duis qui laboris",
+    "style": "aute id proident",
+    "author": {
+      "first_name": "Camille",
+      "last_name": "Miller"
+    },
+    "hops": "Ramjob",
+    "malts": "Andryx",
+    "origin": "Peru",
+    "description": "Non incididunt ipsum reprehenderit adipisicing sint adipisicing do ex. Et anim labore nisi dolore aliqua dolor. Aute et elit magna et consequat ea cillum aliqua anim dolor dolor commodo. Culpa est ut do laboris veniam in ut. Laboris aliquip nulla cupidatat nulla ex et aute esse amet duis. Anim id deserunt ut occaecat in incididunt consequat.",
+    "created_at": "Saturday, January 4, 2014 11:53 PM",
+    "tags": [
+      "sint",
+      "aliqua",
+      "ipsum",
+      "exercitation",
+      "veniam"
+    ]
+  },
+  {
+    "id": 3,
+    "picture": "http://www.erichdoubek.com/emmanuel/wp-content/uploads/2011/09/shaker-pint.jpg",
+    "time": 206,
+    "score": 2,
+    "difficulty": "medium",
+    "process": "nulla adipisicing",
+    "name": "voluptate",
+    "user_style": "esse quis ullamco nostrud",
+    "style": "voluptate laborum minim",
+    "author": {
+      "first_name": "Ashley",
+      "last_name": "Hurst"
+    },
+    "hops": "Dogspa",
+    "malts": "Roughies",
+    "origin": "Malaysia",
+    "description": "Pariatur cupidatat consequat voluptate culpa reprehenderit excepteur exercitation deserunt elit proident ut in id. Est proident mollit sint velit pariatur adipisicing. Exercitation ea sunt esse culpa ipsum ad. Labore officia et aliquip eu amet.",
+    "created_at": "Saturday, November 15, 2014 10:29 PM",
+    "tags": [
+      "sint",
+      "aliqua",
+      "ipsum",
+      "exercitation",
+      "veniam"
+    ]
+  },
+  {
+    "id": 4,
+    "picture": "http://www.erichdoubek.com/emmanuel/wp-content/uploads/2011/09/shaker-pint.jpg",
+    "time": 46,
+    "score": 1,
+    "difficulty": "easy",
+    "process": "exercitation ex",
+    "name": "elit",
+    "user_style": "quis enim nostrud consectetur",
+    "style": "eu officia nisi",
+    "author": {
+      "first_name": "Doreen",
+      "last_name": "Navarro"
+    },
+    "hops": "Geoforma",
+    "malts": "Panzent",
+    "origin": "Lithuania",
+    "description": "Nostrud qui laboris pariatur nostrud excepteur fugiat ea veniam qui elit incididunt ex. Eu voluptate in est ipsum officia consequat aute ex nostrud. Ipsum laboris aute sit sit est id cupidatat aliqua. Deserunt minim sint nisi commodo nulla. Consectetur ipsum proident dolore proident ad mollit occaecat cillum laboris velit ex aliquip adipisicing dolore. Ullamco ullamco commodo et ad anim.",
+    "created_at": "Thursday, January 9, 2014 2:34 AM",
+    "tags": [
+      "sint",
+      "aliqua",
+      "ipsum",
+      "exercitation",
+      "veniam"
+    ]
+  },
+  {
+    "id": 5,
+    "picture": "http://www.erichdoubek.com/emmanuel/wp-content/uploads/2011/09/shaker-pint.jpg",
+    "time": 255,
+    "score": 0,
+    "difficulty": "hard",
+    "process": "et do",
+    "name": "exercitation",
+    "user_style": "Lorem cupidatat Lorem aute",
+    "style": "incididunt aute ipsum",
+    "author": {
+      "first_name": "White",
+      "last_name": "Holcomb"
+    },
+    "hops": "Limozen",
+    "malts": "Sloganaut",
+    "origin": "Korea (North)",
+    "description": "Exercitation qui Lorem labore velit enim irure commodo ad quis laborum culpa proident velit anim. Ad deserunt adipisicing adipisicing tempor. Id occaecat adipisicing minim ea Lorem ex voluptate quis laboris laboris elit quis consectetur. Reprehenderit ex eu nostrud duis dolore et deserunt occaecat nulla magna esse. In veniam consectetur nostrud commodo dolore veniam reprehenderit sint sint sint commodo aliquip mollit cillum. Qui cupidatat laborum nostrud nisi aliquip commodo veniam ut laboris duis aliquip ea velit.",
+    "created_at": "Sunday, July 13, 2014 7:48 PM",
+    "tags": [
+      "sint",
+      "aliqua",
+      "ipsum",
+      "exercitation",
+      "veniam"
+    ]
+  },
+  {
+    "id": 6,
+    "picture": "http://www.erichdoubek.com/emmanuel/wp-content/uploads/2011/09/shaker-pint.jpg",
+    "time": 518,
+    "score": 5,
+    "difficulty": "medium",
+    "process": "proident elit",
+    "name": "eiusmod",
+    "user_style": "adipisicing magna sint est",
+    "style": "ex pariatur amet",
+    "author": {
+      "first_name": "Schultz",
+      "last_name": "Harding"
+    },
+    "hops": "Slax",
+    "malts": "Opportech",
+    "origin": "Namibia",
+    "description": "Magna do est sunt ea dolor magna fugiat eiusmod sit nostrud. Eu dolor in quis deserunt est sit fugiat sunt amet laboris pariatur occaecat. Qui exercitation dolor duis cupidatat. Incididunt eu ut fugiat quis sit aliqua aute. Ex ad adipisicing exercitation esse do esse aliquip occaecat quis duis.",
+    "created_at": "Monday, January 13, 2014 7:39 AM",
+    "tags": [
+      "sint",
+      "aliqua",
+      "ipsum",
+      "exercitation",
+      "veniam"
+    ]
+  },
+  {
+    "id": 7,
+    "picture": "http://www.erichdoubek.com/emmanuel/wp-content/uploads/2011/09/shaker-pint.jpg",
+    "time": 500,
+    "score": 4,
+    "difficulty": "medium",
+    "process": "magna eiusmod",
+    "name": "proident",
+    "user_style": "anim aliquip dolore laboris",
+    "style": "in do in",
+    "author": {
+      "first_name": "Leona",
+      "last_name": "Hays"
+    },
+    "hops": "Zaj",
+    "malts": "Musix",
+    "origin": "Bosnia and Herzegovina",
+    "description": "Excepteur excepteur elit ex deserunt eu. Aliquip et eu voluptate quis officia qui irure do. Incididunt eiusmod ut velit irure cupidatat. Commodo culpa mollit ut quis ullamco culpa cupidatat laboris velit enim ex incididunt amet ullamco. Adipisicing proident dolore occaecat quis sunt est adipisicing duis aliquip aliquip deserunt irure et.",
+    "created_at": "Saturday, August 23, 2014 10:08 AM",
+    "tags": [
+      "sint",
+      "aliqua",
+      "ipsum",
+      "exercitation",
+      "veniam"
+    ]
+  }
+]

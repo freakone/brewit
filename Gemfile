@@ -10,6 +10,7 @@ gem 'slim-rails',        '~> 3.0.1'
 gem 'uglifier', '>= 1.3.0'
 gem 'foundation-rails', '~> 5.5.3.2'
 gem 'font-awesome-sass', '~> 4.4.0'
+gem 'angular-rails-templates',  '~> 0.2.0'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-angular',             '~> 1.4.7'
@@ -17,7 +18,6 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-ui-router',           '~> 0.2.15'
   gem 'rails-assets-angular-translate',   '~> 2.7.2'
   gem 'rails-assets-angular-translate-once', '~> 1.0.1'
-  gem 'rails-assets-normalize-css',       '~> 3.0.3'
 end
 
 group :development, :test do

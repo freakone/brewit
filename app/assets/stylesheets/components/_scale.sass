@@ -1,9 +1,25 @@
-$heart-color: #f26f8f
-$heart-size: 36px
+$scale-heart-color: #f26f8f
+$scale-star-color: #dfba5a
+$scale-element-size: 36px
+$scale-element-small-size: 24px
+$scale-element-tiny-size: 18px
 
 .scale--heart
-  color: $heart-color
+  color: $scale-heart-color
+
+.scale--stars
+  color: $scale-star-color
 
 .scale__element
-  font-size: $heart-size
+  font-size: $scale-element-size
   margin-right: 10px
+
+.scale--small
+
+  .scale__element
+    font-size: $scale-element-small-size
+
+.scale--tiny
+
+  .scale__element
+    font-size: $scale-element-tiny-size

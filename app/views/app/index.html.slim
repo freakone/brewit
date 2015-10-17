@@ -1,1 +1,19 @@
-h1 welcome to the jungle
+div ng-controller="AppController as App"
+  .contain-to-grid
+    nav.top-bar role="navigation"
+      ul.title-area
+        li.name
+          h1: a ui-sref="dashboard" Brewit
+
+        li.toggle-topbar.menu-icon
+          a href="#": span Menu
+
+      section.top-bar-section
+        ul.right
+          li: a href="#" Piwny Janusz
+          li= link_to('Login', new_user_session_path)
+
+        ul.left
+          li: a ui-sref="dashboard" Home
+
+  ui-view

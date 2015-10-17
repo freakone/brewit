@@ -16,93 +16,103 @@
         li: a href="#" Home
 
 .row
-  img.columns.small-12 src="http://placehold.it/1200x200"
+  img.columns.small-12 src="https://placeimg.com/1200/200/animals"
 
 .row
   .columns.small-12
-    label
-      | Search
-      input type="text" placeholder="search"
+    ui.tabs
+      li.tab-title.active: a href="#" General Information
+      li.tab-title: a href="#" Specific Batch Notes
 
-    .row
-      .columns.small-12.medium-4
-        label
-          | Hop
-          select
-            option value="equinox" Equinox
-            option value="equinox" Husker
-            option value="equinox" Starbuck
-            option value="equinox" Hot Dog
+    .tabs-content
+      .content
 
-      .columns.small-12.medium-4
-        label
-          | Malt
-          select
-            option value="equinox" Barley
-            option value="equinox" Husker
-            option value="equinox" Starbuck
-            option value="equinox" Hot Dog
+      .content.active
+        .row
+          .columns.small-12.text-center
+            h1 Monterale
+            h3 American / German Imperial Pale Ale – Malt Extract
 
-      .columns.small-12.medium-4
-        label
-          | Origin
-          select
-            option value="equinox" Any origin
-            option value="equinox" Husker
-            option value="equinox" Starbuck
-            option value="equinox" Hot Dog
+        .row
+          .columns.small-12.medium-3
+            img src=" http://placehold.it/300x150"
+            .scale--heart.scale--small
+              i.scale__element.fa.fa-heart
+              i.scale__element.fa.fa-heart
+              i.scale__element.fa.fa-heart
+              i.scale__element.fa.fa-heart-o
+              i.scale__element.fa.fa-heart-o
+          .columns.small-12.medium-9
+            ul.no-bullet
+              li Hops: Citra, Bravo, Polaris
+              li Malts: Parley Pale Ale
+              li Yeast: US-05 Fermentis Dry Powder
+              li Add-on: None
 
-    .row
-      .columns.small-12.text-center
-        button.button Search
+        .row
+          .columns.small-12
+            h4 Overall impression
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-    .row
-      .columns.small-12.text-center
-        button.button Or add new recipte
+            ul.small-block-grid-2.medium-block-grid-5
+              li.text-center
+                p Taste overall
+                .scale.scale--tiny.scale--stars
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star-o
+                  i.scale__element.fa.fa-star-o
+              li.text-center
+                p Bitterness
+                .scale.scale--tiny.scale--stars
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star
+              li.text-center
+                p Aroma
+                .scale.scale--tiny.scale--stars
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star-o
+                  i.scale__element.fa.fa-star-o
+                  i.scale__element.fa.fa-star-o
+              li.text-center
+                p Foam
+                .scale.scale--tiny.scale--stars
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star-o
+                  i.scale__element.fa.fa-star-o
+                  i.scale__element.fa.fa-star-o
+              li.text-center
+                p Purity
+                .scale.scale--tiny.scale--stars
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star
+                  i.scale__element.fa.fa-star-o
+                  i.scale__element.fa.fa-star-o
 
-.row
-  .columns.small-12.text-center
-    .panel
-      .row
-        .columns.small-12.medium-3
-          img src="http://placehold.it/300x150"
+        .row
+          .columns.small-12
+            h4 Step by Step Receipe
+            ul.square
+              li Lorem ipsum dolor
+              li Nulla quam velit
+              li Duis vulputate commodo
+              li Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit a
+              li Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
 
-        .columns.small-12.medium-6.text-center
-          h2 Monterale
-          p German/American Imperial Pale Ale
+        .row
+          .columns.small-12
+            h1 tu wykres
 
-          small> Process: Malt Extract
-          small< Difficulty: Medium, 3h 30m
-
-        .columns.small-12.medium-3
-          .scale--heart
-            i.scale__element.fa.fa-heart
-            i.scale__element.fa.fa-heart
-            i.scale__element.fa.fa-heart
-            i.scale__element.fa.fa-heart-o
-            i.scale__element.fa.fa-heart-o
-
-    .panel
-      .row
-        .columns.small-12.medium-3
-          img src="http://placehold.it/300x150"
-
-        .columns.small-12.medium-6.text-center
-          h2 Monterale
-          p German/American Imperial Pale Ale
-
-          small> Process: Malt Extract
-          small< Difficulty: Medium, 3h 30m
-
-        .columns.small-12.medium-3
-          .scale--heart
-            i.scale__element.fa.fa-heart
-            i.scale__element.fa.fa-heart
-            i.scale__element.fa.fa-heart
-            i.scale__element.fa.fa-heart-o
-            i.scale__element.fa.fa-heart-o
-
-    .button.small Load more...
+        .row
+          .columns.small-12.text-center
+            button.button.large Brew It
 
 .row
   .columns.small-12.text-center
