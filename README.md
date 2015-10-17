@@ -32,3 +32,29 @@
 * Proteins (float)
 * Max in batch (float)
 * Notes (string) (float)
+
+### Yeast ###
+* Name (string)
+* Lab (string)
+* ID (string)
+* Type (exclusive)
+    * Ale
+    * Lager
+    * Wine
+    * Champagne
+    * Wheat
+* Form (exclusive)
+    * Liquid
+    * Dry
+    * Slant
+    * Culture
+* Flocculation (exclusive)
+    * Low
+    * Medium
+    * High
+* Min. Attenuation (float)
+* Max. Attenuation (float)
+* Min. Temperature (float)
+* Max. Temperature (float)
+* Best for (Styles list)
+* Notes (string)
