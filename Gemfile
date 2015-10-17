@@ -1,9 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.3'
-gem 'turbolinks'
-gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Assets
 gem 'sass-rails', '~> 5.0'
@@ -29,8 +26,9 @@ group :development, :test do
   gem 'spring'
 end
 
-
 gem 'neo4j', '~> 5.0.0'
+gem 'devise-neo4j'
+
 gem 'gate'
 gem 'responders'
 gem 'sidekiq'

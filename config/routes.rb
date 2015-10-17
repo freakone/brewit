@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   mount Sidekiq::Web => '/sidekiq'
 
   root 'home#index'
+  get :app, to: "app#index"
 
   namespace :api, defaults: { format: :json } do
     namespace :internal do
