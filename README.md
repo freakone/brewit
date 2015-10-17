@@ -70,24 +70,46 @@
     * Flavor (3)
     * Other (4)
     * Water Agent (5)
-* Unit
+* Unit (exclusive)
     * grams (1)
     * liters (2 * 0.0295735)
     * teaspoon (6)
     * tablespoon (7)
     * pieces (13)
     * cups
-* Notes
-* Qty/l
-* Use
+* Notes (string)
+* Qty/l (float)
+* Use (exclusive)
     * Boil (0)
     * Mash (1)
     * Primary (2)
     * Secondary (3)
     * Bottling (4)
 * Use for (string)
-* Time
+* Time (float)
 * Time Unit
     * minutes (0)
     * hours (1)
     * days (2)
+
+### Style ###
+* Name (string)
+* Category (integer)
+* Subcategory (string)
+* Aroma (string)
+* Appearance (string)
+* Flavour (string)
+* Mouthfeel (string)
+* Impression (string)
+* Comments (string)
+* Ingredients (string)
+* IBU max (integer)
+* IBU min (integer)
+* SRM max (integer)
+* SRM min (integer)
+* OG max (float)
+* OG min (float)
+* FG max (float)
+* FG min (float)
+* ABV max (float)
+* ABV min (float)
