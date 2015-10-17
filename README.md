@@ -4,14 +4,14 @@
 * Name (string)
 * Origin (string)
 * Type (exclusive)
-    * bittering
-    * aroma
-    * both
+    * bittering (0)
+    * aroma (1)
+    * both (2)
 * Form (exclusive)
-    * pellet
+    * pellet (0)
     * plug
     * leaf
-* Acids (exclusive)
+* Acids
     * Alpha (float)
     * Beta (float)
 * Hop Storing Index (HSI) (float)
@@ -21,9 +21,11 @@
 * Name (string)
 * Origin (string)
 * Type (exclusive)
-    * Malt
-    * Extract
-    * Dry extract
+    * Malt (0)
+    * Extract (1)
+    * Sugar (2)
+    * Adjunct (3)
+    * Dry extract (4)
 * Color (SRM) (integer)
 * Yield (float)
 * FG/CG (fine grain / coarse grain) (float)
@@ -58,3 +60,6 @@
 * Max. Temperature (float)
 * Best for (Styles list)
 * Notes (string)
+
+### Style ###
+* 
