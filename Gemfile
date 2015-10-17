@@ -31,7 +31,7 @@ gem 'devise-neo4j'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
-
+gem 'nokogiri'
 gem 'gate'
 gem 'responders'
 gem 'sidekiq'
