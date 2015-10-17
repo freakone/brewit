@@ -24,10 +24,27 @@
     "yeasts": "US-05 Fermentis Dry Powder",
     "add_ons": "none",
     "recipe_by_step": [
-      "Lorem ipsum",
-      "Dolor sit amet",
-      "Duis vulputate commodo",
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt"
+      {
+        "id": 1,
+        "description": "Commodo pariatur aliquip nostrud minim reprehenderi",
+        "duration": 60,
+        "requirements": null,
+        "shortDesc": "Step: 1, Commodo pariatur aliquip "
+      },
+      {
+        "id": 2,
+        "description": "Pariatur aliquip nostrud minim reprehenderi",
+        "duration": 20,
+        "requirements": 1,
+        "shortDesc": "Step: 2, Pariatur aliquip "
+      },
+      {
+        "id": 3,
+        "description": "Nostrud minim reprehenderi Commodo pariatur aliquip",
+        "duration": 160,
+        "requirements": 2,
+        "shortDesc": "Step: 3, Nostrud minim"
+      }
     ],
     "impression": "Aliqua duis velit non incididunt dolor. Fugiat proident exercitation mollit veniam qui minim in excepteur eiusmod commodo. Esse magna dolor nostrud consequat ut. Commodo pariatur aliquip nostrud minim reprehenderit occaecat non ad do. Occaecat laboris voluptate occaecat excepteur aute. Ullamco pariatur commodo consectetur velit irure esse ipsum commodo nulla eiusmod ipsum.",
     "created_at": "Saturday, September 27, 2014 10:33 AM",

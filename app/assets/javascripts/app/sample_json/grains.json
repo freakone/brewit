@@ -1,0 +1,482 @@
+[
+  {
+    "type": "extract",
+    "origin": "France, Metropolitan",
+    "name": "Daisu",
+    "id": 0
+  },
+  {
+    "type": "sugar",
+    "origin": "Falkland Islands (Malvinas)",
+    "name": "Anacho",
+    "id": 1
+  },
+  {
+    "type": "adjunct",
+    "origin": "South Africa",
+    "name": "Ecrater",
+    "id": 2
+  },
+  {
+    "type": "malt",
+    "origin": "Singapore",
+    "name": "Assistix",
+    "id": 3
+  },
+  {
+    "type": "dry extract",
+    "origin": "San Marino",
+    "name": "Cinaster",
+    "id": 4
+  },
+  {
+    "type": "malt",
+    "origin": "Slovak Republic",
+    "name": "Magnemo",
+    "id": 5
+  },
+  {
+    "type": "malt",
+    "origin": "Korea (South)",
+    "name": "Ecstasia",
+    "id": 6
+  },
+  {
+    "type": "dry extract",
+    "origin": "Zaire",
+    "name": "Enormo",
+    "id": 7
+  },
+  {
+    "type": "extract",
+    "origin": "Chad",
+    "name": "Talendula",
+    "id": 8
+  },
+  {
+    "type": "adjunct",
+    "origin": "Mali",
+    "name": "Earthplex",
+    "id": 9
+  },
+  {
+    "type": "adjunct",
+    "origin": "Romania",
+    "name": "Uxmox",
+    "id": 10
+  },
+  {
+    "type": "extract",
+    "origin": "Maldives",
+    "name": "Ziore",
+    "id": 11
+  },
+  {
+    "type": "malt",
+    "origin": "Zambia",
+    "name": "Zipak",
+    "id": 12
+  },
+  {
+    "type": "sugar",
+    "origin": "Mauritania",
+    "name": "Keeg",
+    "id": 13
+  },
+  {
+    "type": "adjunct",
+    "origin": "Barbados",
+    "name": "Grok",
+    "id": 14
+  },
+  {
+    "type": "malt",
+    "origin": "Saint Lucia",
+    "name": "Spacewax",
+    "id": 15
+  },
+  {
+    "type": "malt",
+    "origin": "Australia",
+    "name": "Vetron",
+    "id": 16
+  },
+  {
+    "type": "dry extract",
+    "origin": "Bulgaria",
+    "name": "Comstruct",
+    "id": 17
+  },
+  {
+    "type": "sugar",
+    "origin": "Solomon Islands",
+    "name": "Toyletry",
+    "id": 18
+  },
+  {
+    "type": "sugar",
+    "origin": "Cayman Islands",
+    "name": "Sarasonic",
+    "id": 19
+  },
+  {
+    "type": "dry extract",
+    "origin": "Luxembourg",
+    "name": "Comtrail",
+    "id": 20
+  },
+  {
+    "type": "sugar",
+    "origin": "Anguilla",
+    "name": "Orbixtar",
+    "id": 21
+  },
+  {
+    "type": "malt",
+    "origin": "Puerto Rico",
+    "name": "Multron",
+    "id": 22
+  },
+  {
+    "type": "sugar",
+    "origin": "Finland",
+    "name": "Roboid",
+    "id": 23
+  },
+  {
+    "type": "dry extract",
+    "origin": "Greece",
+    "name": "Exoplode",
+    "id": 24
+  },
+  {
+    "type": "extract",
+    "origin": "Guam",
+    "name": "Cogentry",
+    "id": 25
+  },
+  {
+    "type": "sugar",
+    "origin": "Papua New Guinea",
+    "name": "Ecraze",
+    "id": 26
+  },
+  {
+    "type": "dry extract",
+    "origin": "Iran",
+    "name": "Nspire",
+    "id": 27
+  },
+  {
+    "type": "malt",
+    "origin": "Sri Lanka",
+    "name": "Exosis",
+    "id": 28
+  },
+  {
+    "type": "adjunct",
+    "origin": "Burundi",
+    "name": "Futuris",
+    "id": 29
+  },
+  {
+    "type": "adjunct",
+    "origin": "Thailand",
+    "name": "Temorak",
+    "id": 30
+  },
+  {
+    "type": "extract",
+    "origin": "Uruguay",
+    "name": "Gynk",
+    "id": 31
+  },
+  {
+    "type": "adjunct",
+    "origin": "Denmark",
+    "name": "Polaria",
+    "id": 32
+  },
+  {
+    "type": "extract",
+    "origin": "Czech Republic",
+    "name": "Zillidium",
+    "id": 33
+  },
+  {
+    "type": "sugar",
+    "origin": "Iraq",
+    "name": "Duflex",
+    "id": 34
+  },
+  {
+    "type": "sugar",
+    "origin": "Gibraltar",
+    "name": "Helixo",
+    "id": 35
+  },
+  {
+    "type": "malt",
+    "origin": "France",
+    "name": "Momentia",
+    "id": 36
+  },
+  {
+    "type": "malt",
+    "origin": "Equatorial Guinea",
+    "name": "Datacator",
+    "id": 37
+  },
+  {
+    "type": "malt",
+    "origin": "Honduras",
+    "name": "Endipin",
+    "id": 38
+  },
+  {
+    "type": "sugar",
+    "origin": "Hong Kong",
+    "name": "Ecosys",
+    "id": 39
+  },
+  {
+    "type": "sugar",
+    "origin": "Costa Rica",
+    "name": "Poochies",
+    "id": 40
+  },
+  {
+    "type": "malt",
+    "origin": "Bouvet Island",
+    "name": "Farmex",
+    "id": 41
+  },
+  {
+    "type": "sugar",
+    "origin": "Senegal",
+    "name": "Netur",
+    "id": 42
+  },
+  {
+    "type": "extract",
+    "origin": "Saudi Arabia",
+    "name": "Sonique",
+    "id": 43
+  },
+  {
+    "type": "sugar",
+    "origin": "Montserrat",
+    "name": "Silodyne",
+    "id": 44
+  },
+  {
+    "type": "sugar",
+    "origin": "Slovenia",
+    "name": "Plasmox",
+    "id": 45
+  },
+  {
+    "type": "adjunct",
+    "origin": "Greenland",
+    "name": "Ovium",
+    "id": 46
+  },
+  {
+    "type": "sugar",
+    "origin": "Ireland",
+    "name": "Gology",
+    "id": 47
+  },
+  {
+    "type": "sugar",
+    "origin": "Aruba",
+    "name": "Flyboyz",
+    "id": 48
+  },
+  {
+    "type": "sugar",
+    "origin": "Argentina",
+    "name": "Firewax",
+    "id": 49
+  },
+  {
+    "type": "extract",
+    "origin": "India",
+    "name": "Rotodyne",
+    "id": 50
+  },
+  {
+    "type": "sugar",
+    "origin": "British Indian Ocean Territory",
+    "name": "Earthmark",
+    "id": 51
+  },
+  {
+    "type": "dry extract",
+    "origin": "Northern Mariana Islands",
+    "name": "Furnigeer",
+    "id": 52
+  },
+  {
+    "type": "adjunct",
+    "origin": "United Kingdom",
+    "name": "Boilcat",
+    "id": 53
+  },
+  {
+    "type": "adjunct",
+    "origin": "Vanuatu",
+    "name": "Gracker",
+    "id": 54
+  },
+  {
+    "type": "dry extract",
+    "origin": "Liechtenstein",
+    "name": "Qnekt",
+    "id": 55
+  },
+  {
+    "type": "sugar",
+    "origin": "Belgium",
+    "name": "Joviold",
+    "id": 56
+  },
+  {
+    "type": "extract",
+    "origin": "Samoa",
+    "name": "Premiant",
+    "id": 57
+  },
+  {
+    "type": "sugar",
+    "origin": "Saint Kitts and Nevis",
+    "name": "Concility",
+    "id": 58
+  },
+  {
+    "type": "malt",
+    "origin": "Netherlands Antilles",
+    "name": "Isopop",
+    "id": 59
+  },
+  {
+    "type": "malt",
+    "origin": "Ukraine",
+    "name": "Xanide",
+    "id": 60
+  },
+  {
+    "type": "extract",
+    "origin": "Jamaica",
+    "name": "Capscreen",
+    "id": 61
+  },
+  {
+    "type": "extract",
+    "origin": "Mayotte",
+    "name": "Eargo",
+    "id": 62
+  },
+  {
+    "type": "malt",
+    "origin": "Guadeloupe",
+    "name": "Portaline",
+    "id": 63
+  },
+  {
+    "type": "extract",
+    "origin": "Micronesia",
+    "name": "Globoil",
+    "id": 64
+  },
+  {
+    "type": "dry extract",
+    "origin": "Spain",
+    "name": "Inventure",
+    "id": 65
+  },
+  {
+    "type": "dry extract",
+    "origin": "Cuba",
+    "name": "Sultraxin",
+    "id": 66
+  },
+  {
+    "type": "adjunct",
+    "origin": "Haiti",
+    "name": "Unia",
+    "id": 67
+  },
+  {
+    "type": "extract",
+    "origin": "Croatia (Hrvatska)",
+    "name": "Zaj",
+    "id": 68
+  },
+  {
+    "type": "malt",
+    "origin": "Nepal",
+    "name": "Zidox",
+    "id": 69
+  },
+  {
+    "type": "sugar",
+    "origin": "Fiji",
+    "name": "Cemention",
+    "id": 70
+  },
+  {
+    "type": "extract",
+    "origin": "Belarus",
+    "name": "Furnafix",
+    "id": 71
+  },
+  {
+    "type": "sugar",
+    "origin": "Tanzania",
+    "name": "Zinca",
+    "id": 72
+  },
+  {
+    "type": "adjunct",
+    "origin": "Belize",
+    "name": "Zuvy",
+    "id": 73
+  },
+  {
+    "type": "malt",
+    "origin": "Christmas Island",
+    "name": "Norsup",
+    "id": 74
+  },
+  {
+    "type": "extract",
+    "origin": "Panama",
+    "name": "Medcom",
+    "id": 75
+  },
+  {
+    "type": "extract",
+    "origin": "Sierra Leone",
+    "name": "Handshake",
+    "id": 76
+  },
+  {
+    "type": "malt",
+    "origin": "Swaziland",
+    "name": "Terrasys",
+    "id": 77
+  },
+  {
+    "type": "malt",
+    "origin": "Guyana",
+    "name": "Hyplex",
+    "id": 78
+  },
+  {
+    "type": "extract",
+    "origin": "Namibia",
+    "name": "Vurbo",
+    "id": 79
+  }
+]

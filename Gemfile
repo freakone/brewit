@@ -32,7 +32,7 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'omniauth-google-oauth2'
 gem 'nokogiri'
-gem 'gate'
+gem 'gate', '~> 0.1.0'
 gem 'responders'
 gem 'sidekiq'
 gem 'sinatra', require: nil

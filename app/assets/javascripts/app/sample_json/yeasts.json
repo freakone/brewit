@@ -1,0 +1,562 @@
+[
+  {
+    "flocculation": "medium",
+    "form": "dry",
+    "type": "wheat",
+    "name": "Corepan",
+    "id": 0
+  },
+  {
+    "flocculation": "medium",
+    "form": "culture",
+    "type": "champagne",
+    "name": "Zillidium",
+    "id": 1
+  },
+  {
+    "flocculation": "medium",
+    "form": "culture",
+    "type": "wine",
+    "name": "Krag",
+    "id": 2
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "lager",
+    "name": "Rodemco",
+    "id": 3
+  },
+  {
+    "flocculation": "medium",
+    "form": "dry",
+    "type": "wine",
+    "name": "Comtext",
+    "id": 4
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "wheat",
+    "name": "Poshome",
+    "id": 5
+  },
+  {
+    "flocculation": "low",
+    "form": "culture",
+    "type": "lager",
+    "name": "Cubicide",
+    "id": 6
+  },
+  {
+    "flocculation": "low",
+    "form": "slant",
+    "type": "ale",
+    "name": "Zoid",
+    "id": 7
+  },
+  {
+    "flocculation": "low",
+    "form": "culture",
+    "type": "wine",
+    "name": "Biospan",
+    "id": 8
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "wheat",
+    "name": "Updat",
+    "id": 9
+  },
+  {
+    "flocculation": "medium",
+    "form": "dry",
+    "type": "wine",
+    "name": "Goko",
+    "id": 10
+  },
+  {
+    "flocculation": "low",
+    "form": "liquid",
+    "type": "lager",
+    "name": "Springbee",
+    "id": 11
+  },
+  {
+    "flocculation": "medium",
+    "form": "dry",
+    "type": "wine",
+    "name": "Insectus",
+    "id": 12
+  },
+  {
+    "flocculation": "low",
+    "form": "slant",
+    "type": "ale",
+    "name": "Immunics",
+    "id": 13
+  },
+  {
+    "flocculation": "high",
+    "form": "dry",
+    "type": "wine",
+    "name": "Talendula",
+    "id": 14
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "lager",
+    "name": "Capscreen",
+    "id": 15
+  },
+  {
+    "flocculation": "medium",
+    "form": "culture",
+    "type": "ale",
+    "name": "Zisis",
+    "id": 16
+  },
+  {
+    "flocculation": "high",
+    "form": "culture",
+    "type": "wine",
+    "name": "Buzzness",
+    "id": 17
+  },
+  {
+    "flocculation": "high",
+    "form": "liquid",
+    "type": "lager",
+    "name": "Orbixtar",
+    "id": 18
+  },
+  {
+    "flocculation": "low",
+    "form": "liquid",
+    "type": "ale",
+    "name": "Steeltab",
+    "id": 19
+  },
+  {
+    "flocculation": "medium",
+    "form": "dry",
+    "type": "ale",
+    "name": "Polarium",
+    "id": 20
+  },
+  {
+    "flocculation": "low",
+    "form": "slant",
+    "type": "wheat",
+    "name": "Qimonk",
+    "id": 21
+  },
+  {
+    "flocculation": "medium",
+    "form": "dry",
+    "type": "wine",
+    "name": "Aquasseur",
+    "id": 22
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "wheat",
+    "name": "Rotodyne",
+    "id": 23
+  },
+  {
+    "flocculation": "high",
+    "form": "dry",
+    "type": "wine",
+    "name": "Globoil",
+    "id": 24
+  },
+  {
+    "flocculation": "high",
+    "form": "slant",
+    "type": "lager",
+    "name": "Golistic",
+    "id": 25
+  },
+  {
+    "flocculation": "medium",
+    "form": "slant",
+    "type": "wine",
+    "name": "Tersanki",
+    "id": 26
+  },
+  {
+    "flocculation": "high",
+    "form": "culture",
+    "type": "wheat",
+    "name": "Zillacon",
+    "id": 27
+  },
+  {
+    "flocculation": "high",
+    "form": "dry",
+    "type": "champagne",
+    "name": "Shepard",
+    "id": 28
+  },
+  {
+    "flocculation": "high",
+    "form": "culture",
+    "type": "wheat",
+    "name": "Deminimum",
+    "id": 29
+  },
+  {
+    "flocculation": "medium",
+    "form": "slant",
+    "type": "ale",
+    "name": "Prosely",
+    "id": 30
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "champagne",
+    "name": "Digique",
+    "id": 31
+  },
+  {
+    "flocculation": "low",
+    "form": "dry",
+    "type": "ale",
+    "name": "Eweville",
+    "id": 32
+  },
+  {
+    "flocculation": "high",
+    "form": "slant",
+    "type": "wheat",
+    "name": "Geofarm",
+    "id": 33
+  },
+  {
+    "flocculation": "high",
+    "form": "slant",
+    "type": "lager",
+    "name": "Musaphics",
+    "id": 34
+  },
+  {
+    "flocculation": "low",
+    "form": "culture",
+    "type": "champagne",
+    "name": "Melbacor",
+    "id": 35
+  },
+  {
+    "flocculation": "medium",
+    "form": "culture",
+    "type": "ale",
+    "name": "Isis",
+    "id": 36
+  },
+  {
+    "flocculation": "low",
+    "form": "culture",
+    "type": "lager",
+    "name": "Kidgrease",
+    "id": 37
+  },
+  {
+    "flocculation": "medium",
+    "form": "culture",
+    "type": "wheat",
+    "name": "Zedalis",
+    "id": 38
+  },
+  {
+    "flocculation": "high",
+    "form": "dry",
+    "type": "wine",
+    "name": "Turnabout",
+    "id": 39
+  },
+  {
+    "flocculation": "high",
+    "form": "slant",
+    "type": "wheat",
+    "name": "Inrt",
+    "id": 40
+  },
+  {
+    "flocculation": "medium",
+    "form": "dry",
+    "type": "wheat",
+    "name": "Bedlam",
+    "id": 41
+  },
+  {
+    "flocculation": "medium",
+    "form": "slant",
+    "type": "wine",
+    "name": "Geologix",
+    "id": 42
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "champagne",
+    "name": "Premiant",
+    "id": 43
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "wine",
+    "name": "Irack",
+    "id": 44
+  },
+  {
+    "flocculation": "high",
+    "form": "slant",
+    "type": "wine",
+    "name": "Earbang",
+    "id": 45
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "wine",
+    "name": "Interfind",
+    "id": 46
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "wheat",
+    "name": "Geeky",
+    "id": 47
+  },
+  {
+    "flocculation": "high",
+    "form": "dry",
+    "type": "wine",
+    "name": "Qualitern",
+    "id": 48
+  },
+  {
+    "flocculation": "high",
+    "form": "dry",
+    "type": "wheat",
+    "name": "Cedward",
+    "id": 49
+  },
+  {
+    "flocculation": "medium",
+    "form": "dry",
+    "type": "wine",
+    "name": "Hydrocom",
+    "id": 50
+  },
+  {
+    "flocculation": "high",
+    "form": "liquid",
+    "type": "wheat",
+    "name": "Mixers",
+    "id": 51
+  },
+  {
+    "flocculation": "high",
+    "form": "culture",
+    "type": "wine",
+    "name": "Nspire",
+    "id": 52
+  },
+  {
+    "flocculation": "medium",
+    "form": "dry",
+    "type": "champagne",
+    "name": "Zensure",
+    "id": 53
+  },
+  {
+    "flocculation": "high",
+    "form": "culture",
+    "type": "champagne",
+    "name": "Frosnex",
+    "id": 54
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "wheat",
+    "name": "Signity",
+    "id": 55
+  },
+  {
+    "flocculation": "high",
+    "form": "liquid",
+    "type": "lager",
+    "name": "Exoteric",
+    "id": 56
+  },
+  {
+    "flocculation": "high",
+    "form": "slant",
+    "type": "wheat",
+    "name": "Kiggle",
+    "id": 57
+  },
+  {
+    "flocculation": "medium",
+    "form": "culture",
+    "type": "wheat",
+    "name": "Neocent",
+    "id": 58
+  },
+  {
+    "flocculation": "medium",
+    "form": "culture",
+    "type": "ale",
+    "name": "Zillar",
+    "id": 59
+  },
+  {
+    "flocculation": "low",
+    "form": "culture",
+    "type": "champagne",
+    "name": "Tropoli",
+    "id": 60
+  },
+  {
+    "flocculation": "high",
+    "form": "liquid",
+    "type": "champagne",
+    "name": "Snowpoke",
+    "id": 61
+  },
+  {
+    "flocculation": "high",
+    "form": "slant",
+    "type": "champagne",
+    "name": "Assistix",
+    "id": 62
+  },
+  {
+    "flocculation": "low",
+    "form": "culture",
+    "type": "ale",
+    "name": "Farmex",
+    "id": 63
+  },
+  {
+    "flocculation": "high",
+    "form": "liquid",
+    "type": "wheat",
+    "name": "Cinesanct",
+    "id": 64
+  },
+  {
+    "flocculation": "low",
+    "form": "dry",
+    "type": "lager",
+    "name": "Barkarama",
+    "id": 65
+  },
+  {
+    "flocculation": "low",
+    "form": "liquid",
+    "type": "ale",
+    "name": "Blurrybus",
+    "id": 66
+  },
+  {
+    "flocculation": "low",
+    "form": "liquid",
+    "type": "ale",
+    "name": "Gronk",
+    "id": 67
+  },
+  {
+    "flocculation": "medium",
+    "form": "culture",
+    "type": "wine",
+    "name": "Netility",
+    "id": 68
+  },
+  {
+    "flocculation": "medium",
+    "form": "culture",
+    "type": "ale",
+    "name": "Strozen",
+    "id": 69
+  },
+  {
+    "flocculation": "low",
+    "form": "culture",
+    "type": "champagne",
+    "name": "Greeker",
+    "id": 70
+  },
+  {
+    "flocculation": "medium",
+    "form": "slant",
+    "type": "champagne",
+    "name": "Squish",
+    "id": 71
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "wine",
+    "name": "Accuprint",
+    "id": 72
+  },
+  {
+    "flocculation": "low",
+    "form": "liquid",
+    "type": "wheat",
+    "name": "Fangold",
+    "id": 73
+  },
+  {
+    "flocculation": "high",
+    "form": "dry",
+    "type": "ale",
+    "name": "Tetratrex",
+    "id": 74
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "wine",
+    "name": "Sultrax",
+    "id": 75
+  },
+  {
+    "flocculation": "medium",
+    "form": "slant",
+    "type": "lager",
+    "name": "Artworlds",
+    "id": 76
+  },
+  {
+    "flocculation": "high",
+    "form": "liquid",
+    "type": "wheat",
+    "name": "Recritube",
+    "id": 77
+  },
+  {
+    "flocculation": "medium",
+    "form": "liquid",
+    "type": "lager",
+    "name": "Imageflow",
+    "id": 78
+  },
+  {
+    "flocculation": "medium",
+    "form": "dry",
+    "type": "wine",
+    "name": "Twiist",
+    "id": 79
+  }
+]

@@ -15,46 +15,58 @@
     .tabs-content
       .content ng-class="{ 'active': newRecipe.page === 1 }"
         .row
-          .columns.small-12
+          .columns.small-12.medium-6
             label
               | Style*
-              input ng-model="newRecipe.params.style" type="text" placeholder="For example: American Imperial Pale Ale"
-        .row
-          .columns.small-12
+              select(
+                ng-options="style.id as style.name group by style.category for style in newRecipe.styles track by style.id"
+                ng-model="newRecipe.params.style"
+              )
+          .columns.small-12.medium-6
             label
               | Type*
               select ng-model="newRecipe.params.type"
-                option value="Stout" Stout
-                option value="Ale" Ale
-                option value="Porter" Porter
+                option value="All grain" All grain
+                option value="Partial mash" Partial mash
+                option value="Extract" Extract
         .row
-          .columns.small-12
+          .columns.small-12.medium-6
             label
               | Yeast*
-              input ng-model="newRecipe.params.yeast" type="text" placeholder="For example: US-05 Dry Powder"
-        .row
-          .columns.small-12
+              select(
+                ng-options="yeast.id as yeast.name group by yeast.type for yeast in newRecipe.ingredients.yeasts track by yeast.id"
+                ng-model="newRecipe.params.yeasts"
+                ng-click="newRecipe.getIngredient('yeasts')"
+              )
+          .columns.small-12.medium-6
             label
-              | Malts*
-              input ng-model="newRecipe.params.malts" type="text" placeholder="For example: Barley Pale Ale"
+              | Grains*
+              select(
+                ng-options="grain.id as grain.name group by grain.origin for grain in newRecipe.ingredients.grains track by grain.id"
+                ng-model="newRecipe.params.grains"
+                ng-click="newRecipe.getIngredient('grains')"
+              )
         .row
-          .columns.small-12
+          .columns.small-12.medium-6
             label
               | Hops*
-              input ng-model="newRecipe.params.hops" type="text" placeholder="For example: Equinox, Citra"
-        .row
-          .columns.small-12
+              select(
+                ng-options="hop.id as hop.name group by hop.type for hop in newRecipe.ingredients.hops track by hop.id"
+                ng-model="newRecipe.params.hops"
+                ng-click="newRecipe.getIngredient('hops')"
+              )
+          .columns.small-12.medium-6
             label
               | Add-ons*
               input ng-model="newRecipe.params.add_ons" type="text" placeholder="For example: Irish Shit, Vodka"
         .row
-          .columns.small-12
+          .columns.small-12.medium-6
             label
               | Name*
               .row.collapse
-                .columns.small-6.medium-10
+                .columns.small-6.medium-8
                   input ng-model="newRecipe.params.name" type="text" placeholder="For example: Coffee Imperial Pale Ale with Irish Shit"
-                .columns.small-6.medium-2
+                .columns.small-6.medium-4
                   button.button.postfix Generate name
 
         .row
@@ -127,6 +139,7 @@
       .content ng-class="{ 'active': newRecipe.page === 3 }"
         .row
           .columns.small-12.medium-6
+            h2 One by one steps
             .panel ng-repeat="step in newRecipe.params.recipe_by_step track by $index"
               h4
                 | Step: {{ $index + 1}}
@@ -154,7 +167,8 @@
               .columns.small-6
                 label
                   | Step requirements
-                  input type="text" ng-model="newRecipe.stepForm.requirements"
+                  select ng-disabled="newRecipe.params.recipe_by_step.length == 0" ng-model="newRecipe.stepForm.requirements" ng-options="step.id as step.shortDesc for step in newRecipe.params.recipe_by_step"
+
 
             button.button.tiny ng-click="newRecipe.addStep()" Add another step
 

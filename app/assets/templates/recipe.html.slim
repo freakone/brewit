@@ -93,9 +93,12 @@
         .row
           .columns.small-12
             h4 Step by Step Receipe
-            ul.square
+            ol.square
               li ng-repeat="step in recipe.data.recipe_by_step"
-                | {{ step }}
+                p
+                  | {{ step.description }}
+                small
+                  | {{ step.duration }} | Requires step: {{step.requirements}}
 
         .row
           .columns.small-12

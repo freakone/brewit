@@ -1,0 +1,402 @@
+[
+  {
+    "category": "stout",
+    "name": "Opticon",
+    "id": 0
+  },
+  {
+    "category": "pilsner",
+    "name": "Oronoko",
+    "id": 1
+  },
+  {
+    "category": "scottish and irish ale",
+    "name": "Orboid",
+    "id": 2
+  },
+  {
+    "category": "dark lager",
+    "name": "Buzzmaker",
+    "id": 3
+  },
+  {
+    "category": "pilsner",
+    "name": "Escenta",
+    "id": 4
+  },
+  {
+    "category": "belgian and french ale",
+    "name": "Enerforce",
+    "id": 5
+  },
+  {
+    "category": "pilsner",
+    "name": "Harmoney",
+    "id": 6
+  },
+  {
+    "category": "german wheat and rye beer",
+    "name": "Repetwire",
+    "id": 7
+  },
+  {
+    "category": "american ale",
+    "name": "Rodeomad",
+    "id": 8
+  },
+  {
+    "category": "english pale ale",
+    "name": "Joviold",
+    "id": 9
+  },
+  {
+    "category": "porter",
+    "name": "Quilm",
+    "id": 10
+  },
+  {
+    "category": "english pale ale",
+    "name": "Motovate",
+    "id": 11
+  },
+  {
+    "category": "porter",
+    "name": "Comtrek",
+    "id": 12
+  },
+  {
+    "category": "scottish and irish ale",
+    "name": "Hinway",
+    "id": 13
+  },
+  {
+    "category": "stout",
+    "name": "Medicroix",
+    "id": 14
+  },
+  {
+    "category": "european amber lager",
+    "name": "Kidstock",
+    "id": 15
+  },
+  {
+    "category": "bock",
+    "name": "Bitendrex",
+    "id": 16
+  },
+  {
+    "category": "porter",
+    "name": "Orbean",
+    "id": 17
+  },
+  {
+    "category": "stout",
+    "name": "Aquafire",
+    "id": 18
+  },
+  {
+    "category": "fruit beer",
+    "name": "Comcubine",
+    "id": 19
+  },
+  {
+    "category": "bock",
+    "name": "Corporana",
+    "id": 20
+  },
+  {
+    "category": "belgian and french ale",
+    "name": "Zidant",
+    "id": 21
+  },
+  {
+    "category": "belgian and french ale",
+    "name": "Anocha",
+    "id": 22
+  },
+  {
+    "category": "european amber lager",
+    "name": "Magnafone",
+    "id": 23
+  },
+  {
+    "category": "english pale ale",
+    "name": "Eventex",
+    "id": 24
+  },
+  {
+    "category": "pilsner",
+    "name": "Zaphire",
+    "id": 25
+  },
+  {
+    "category": "american ale",
+    "name": "Illumity",
+    "id": 26
+  },
+  {
+    "category": "fruit beer",
+    "name": "Valpreal",
+    "id": 27
+  },
+  {
+    "category": "european amber lager",
+    "name": "Idetica",
+    "id": 28
+  },
+  {
+    "category": "bock",
+    "name": "Orbalix",
+    "id": 29
+  },
+  {
+    "category": "american ale",
+    "name": "Tingles",
+    "id": 30
+  },
+  {
+    "category": "american ale",
+    "name": "Zaj",
+    "id": 31
+  },
+  {
+    "category": "german wheat and rye beer",
+    "name": "Ebidco",
+    "id": 32
+  },
+  {
+    "category": "scottish and irish ale",
+    "name": "Concility",
+    "id": 33
+  },
+  {
+    "category": "belgian and french ale",
+    "name": "Hairport",
+    "id": 34
+  },
+  {
+    "category": "german wheat and rye beer",
+    "name": "Rooforia",
+    "id": 35
+  },
+  {
+    "category": "american ale",
+    "name": "Terrasys",
+    "id": 36
+  },
+  {
+    "category": "american ale",
+    "name": "Bleeko",
+    "id": 37
+  },
+  {
+    "category": "english pale ale",
+    "name": "Halap",
+    "id": 38
+  },
+  {
+    "category": "stout",
+    "name": "Pholio",
+    "id": 39
+  },
+  {
+    "category": "stout",
+    "name": "Cormoran",
+    "id": 40
+  },
+  {
+    "category": "stout",
+    "name": "Zolarex",
+    "id": 41
+  },
+  {
+    "category": "porter",
+    "name": "Quiltigen",
+    "id": 42
+  },
+  {
+    "category": "english pale ale",
+    "name": "Uni",
+    "id": 43
+  },
+  {
+    "category": "light lager",
+    "name": "Newcube",
+    "id": 44
+  },
+  {
+    "category": "fruit beer",
+    "name": "Viagrand",
+    "id": 45
+  },
+  {
+    "category": "stout",
+    "name": "Norsup",
+    "id": 46
+  },
+  {
+    "category": "english pale ale",
+    "name": "Cujo",
+    "id": 47
+  },
+  {
+    "category": "belgian and french ale",
+    "name": "Plasmosis",
+    "id": 48
+  },
+  {
+    "category": "porter",
+    "name": "Gadtron",
+    "id": 49
+  },
+  {
+    "category": "fruit beer",
+    "name": "Xanide",
+    "id": 50
+  },
+  {
+    "category": "pilsner",
+    "name": "Miraclis",
+    "id": 51
+  },
+  {
+    "category": "dark lager",
+    "name": "Slax",
+    "id": 52
+  },
+  {
+    "category": "porter",
+    "name": "Infotrips",
+    "id": 53
+  },
+  {
+    "category": "scottish and irish ale",
+    "name": "Mantrix",
+    "id": 54
+  },
+  {
+    "category": "belgian and french ale",
+    "name": "Klugger",
+    "id": 55
+  },
+  {
+    "category": "bock",
+    "name": "Techtrix",
+    "id": 56
+  },
+  {
+    "category": "scottish and irish ale",
+    "name": "Ontality",
+    "id": 57
+  },
+  {
+    "category": "pilsner",
+    "name": "Zilla",
+    "id": 58
+  },
+  {
+    "category": "bock",
+    "name": "Cognicode",
+    "id": 59
+  },
+  {
+    "category": "light lager",
+    "name": "Franscene",
+    "id": 60
+  },
+  {
+    "category": "scottish and irish ale",
+    "name": "Verton",
+    "id": 61
+  },
+  {
+    "category": "german wheat and rye beer",
+    "name": "Zisis",
+    "id": 62
+  },
+  {
+    "category": "english pale ale",
+    "name": "Genmy",
+    "id": 63
+  },
+  {
+    "category": "belgian and french ale",
+    "name": "Quonata",
+    "id": 64
+  },
+  {
+    "category": "belgian and french ale",
+    "name": "Exoteric",
+    "id": 65
+  },
+  {
+    "category": "english pale ale",
+    "name": "Savvy",
+    "id": 66
+  },
+  {
+    "category": "pilsner",
+    "name": "Turnabout",
+    "id": 67
+  },
+  {
+    "category": "european amber lager",
+    "name": "Skinserve",
+    "id": 68
+  },
+  {
+    "category": "american ale",
+    "name": "Springbee",
+    "id": 69
+  },
+  {
+    "category": "european amber lager",
+    "name": "Animalia",
+    "id": 70
+  },
+  {
+    "category": "american ale",
+    "name": "Olucore",
+    "id": 71
+  },
+  {
+    "category": "american ale",
+    "name": "Rockabye",
+    "id": 72
+  },
+  {
+    "category": "bock",
+    "name": "Vetron",
+    "id": 73
+  },
+  {
+    "category": "american ale",
+    "name": "Avenetro",
+    "id": 74
+  },
+  {
+    "category": "belgian and french ale",
+    "name": "Pheast",
+    "id": 75
+  },
+  {
+    "category": "dark lager",
+    "name": "Quarmony",
+    "id": 76
+  },
+  {
+    "category": "porter",
+    "name": "Talae",
+    "id": 77
+  },
+  {
+    "category": "dark lager",
+    "name": "Bugsall",
+    "id": 78
+  },
+  {
+    "category": "dark lager",
+    "name": "Idego",
+    "id": 79
+  }
+]

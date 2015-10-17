@@ -1,0 +1,562 @@
+[
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "bittering",
+    "name": "Freakin",
+    "id": 0
+  },
+  {
+    "acids": "alpha",
+    "form": "pellet",
+    "type": "aroma",
+    "name": "Zillidium",
+    "id": 1
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "bittering",
+    "name": "Cinaster",
+    "id": 2
+  },
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "bittering",
+    "name": "Sarasonic",
+    "id": 3
+  },
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "aroma",
+    "name": "Toyletry",
+    "id": 4
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "aroma",
+    "name": "Proxsoft",
+    "id": 5
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "both",
+    "name": "Slofast",
+    "id": 6
+  },
+  {
+    "acids": "alpha",
+    "form": "pellet",
+    "type": "aroma",
+    "name": "Skybold",
+    "id": 7
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "aroma",
+    "name": "Quinex",
+    "id": 8
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "both",
+    "name": "Netplode",
+    "id": 9
+  },
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "bittering",
+    "name": "Nutralab",
+    "id": 10
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "aroma",
+    "name": "Uncorp",
+    "id": 11
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "bittering",
+    "name": "Flum",
+    "id": 12
+  },
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "bittering",
+    "name": "Goko",
+    "id": 13
+  },
+  {
+    "acids": "alpha",
+    "form": "plug",
+    "type": "both",
+    "name": "Zorromop",
+    "id": 14
+  },
+  {
+    "acids": "alpha",
+    "form": "pellet",
+    "type": "aroma",
+    "name": "Kinetica",
+    "id": 15
+  },
+  {
+    "acids": "alpha",
+    "form": "plug",
+    "type": "both",
+    "name": "Comfirm",
+    "id": 16
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "both",
+    "name": "Cuizine",
+    "id": 17
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "both",
+    "name": "Qualitern",
+    "id": 18
+  },
+  {
+    "acids": "beta",
+    "form": "pellet",
+    "type": "both",
+    "name": "Comtest",
+    "id": 19
+  },
+  {
+    "acids": "beta",
+    "form": "pellet",
+    "type": "bittering",
+    "name": "Brainquil",
+    "id": 20
+  },
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "aroma",
+    "name": "Xanide",
+    "id": 21
+  },
+  {
+    "acids": "alpha",
+    "form": "plug",
+    "type": "both",
+    "name": "Cubicide",
+    "id": 22
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "bittering",
+    "name": "Techtrix",
+    "id": 23
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "bittering",
+    "name": "Digitalus",
+    "id": 24
+  },
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "aroma",
+    "name": "Geekology",
+    "id": 25
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "aroma",
+    "name": "Lyria",
+    "id": 26
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "both",
+    "name": "Prowaste",
+    "id": 27
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "aroma",
+    "name": "Kraggle",
+    "id": 28
+  },
+  {
+    "acids": "beta",
+    "form": "pellet",
+    "type": "both",
+    "name": "Bittor",
+    "id": 29
+  },
+  {
+    "acids": "alpha",
+    "form": "pellet",
+    "type": "aroma",
+    "name": "Enormo",
+    "id": 30
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "bittering",
+    "name": "Pearlesex",
+    "id": 31
+  },
+  {
+    "acids": "beta",
+    "form": "pellet",
+    "type": "bittering",
+    "name": "Kidgrease",
+    "id": 32
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "aroma",
+    "name": "Combogen",
+    "id": 33
+  },
+  {
+    "acids": "alpha",
+    "form": "pellet",
+    "type": "both",
+    "name": "Hydrocom",
+    "id": 34
+  },
+  {
+    "acids": "alpha",
+    "form": "pellet",
+    "type": "bittering",
+    "name": "Equitox",
+    "id": 35
+  },
+  {
+    "acids": "alpha",
+    "form": "plug",
+    "type": "aroma",
+    "name": "Isopop",
+    "id": 36
+  },
+  {
+    "acids": "alpha",
+    "form": "plug",
+    "type": "both",
+    "name": "Qiao",
+    "id": 37
+  },
+  {
+    "acids": "beta",
+    "form": "pellet",
+    "type": "bittering",
+    "name": "Protodyne",
+    "id": 38
+  },
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "aroma",
+    "name": "Acruex",
+    "id": 39
+  },
+  {
+    "acids": "alpha",
+    "form": "plug",
+    "type": "both",
+    "name": "Savvy",
+    "id": 40
+  },
+  {
+    "acids": "alpha",
+    "form": "plug",
+    "type": "both",
+    "name": "Everest",
+    "id": 41
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "aroma",
+    "name": "Silodyne",
+    "id": 42
+  },
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "both",
+    "name": "Zytrex",
+    "id": 43
+  },
+  {
+    "acids": "beta",
+    "form": "pellet",
+    "type": "aroma",
+    "name": "Exerta",
+    "id": 44
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "both",
+    "name": "Essensia",
+    "id": 45
+  },
+  {
+    "acids": "alpha",
+    "form": "pellet",
+    "type": "aroma",
+    "name": "Netagy",
+    "id": 46
+  },
+  {
+    "acids": "alpha",
+    "form": "plug",
+    "type": "bittering",
+    "name": "Quarx",
+    "id": 47
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "both",
+    "name": "Dogspa",
+    "id": 48
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "aroma",
+    "name": "Multiflex",
+    "id": 49
+  },
+  {
+    "acids": "alpha",
+    "form": "plug",
+    "type": "both",
+    "name": "Prosure",
+    "id": 50
+  },
+  {
+    "acids": "alpha",
+    "form": "plug",
+    "type": "bittering",
+    "name": "Artworlds",
+    "id": 51
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "bittering",
+    "name": "Realysis",
+    "id": 52
+  },
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "bittering",
+    "name": "Urbanshee",
+    "id": 53
+  },
+  {
+    "acids": "alpha",
+    "form": "plug",
+    "type": "aroma",
+    "name": "Veraq",
+    "id": 54
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "bittering",
+    "name": "Marketoid",
+    "id": 55
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "bittering",
+    "name": "Zanilla",
+    "id": 56
+  },
+  {
+    "acids": "beta",
+    "form": "pellet",
+    "type": "aroma",
+    "name": "Techmania",
+    "id": 57
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "aroma",
+    "name": "Zerology",
+    "id": 58
+  },
+  {
+    "acids": "alpha",
+    "form": "pellet",
+    "type": "aroma",
+    "name": "Comcur",
+    "id": 59
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "bittering",
+    "name": "Enthaze",
+    "id": 60
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "bittering",
+    "name": "Geoform",
+    "id": 61
+  },
+  {
+    "acids": "alpha",
+    "form": "pellet",
+    "type": "bittering",
+    "name": "Elentrix",
+    "id": 62
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "aroma",
+    "name": "Collaire",
+    "id": 63
+  },
+  {
+    "acids": "beta",
+    "form": "leaf",
+    "type": "both",
+    "name": "Gadtron",
+    "id": 64
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "bittering",
+    "name": "Frosnex",
+    "id": 65
+  },
+  {
+    "acids": "alpha",
+    "form": "plug",
+    "type": "both",
+    "name": "Futuris",
+    "id": 66
+  },
+  {
+    "acids": "alpha",
+    "form": "pellet",
+    "type": "bittering",
+    "name": "Pyramia",
+    "id": 67
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "aroma",
+    "name": "Unia",
+    "id": 68
+  },
+  {
+    "acids": "alpha",
+    "form": "plug",
+    "type": "both",
+    "name": "Verbus",
+    "id": 69
+  },
+  {
+    "acids": "alpha",
+    "form": "pellet",
+    "type": "bittering",
+    "name": "Boink",
+    "id": 70
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "aroma",
+    "name": "Extrawear",
+    "id": 71
+  },
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "bittering",
+    "name": "Virxo",
+    "id": 72
+  },
+  {
+    "acids": "alpha",
+    "form": "leaf",
+    "type": "bittering",
+    "name": "Soprano",
+    "id": 73
+  },
+  {
+    "acids": "beta",
+    "form": "pellet",
+    "type": "both",
+    "name": "Tubalum",
+    "id": 74
+  },
+  {
+    "acids": "beta",
+    "form": "pellet",
+    "type": "aroma",
+    "name": "Neteria",
+    "id": 75
+  },
+  {
+    "acids": "alpha",
+    "form": "pellet",
+    "type": "aroma",
+    "name": "Sultraxin",
+    "id": 76
+  },
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "aroma",
+    "name": "Powernet",
+    "id": 77
+  },
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "aroma",
+    "name": "Polarax",
+    "id": 78
+  },
+  {
+    "acids": "beta",
+    "form": "plug",
+    "type": "bittering",
+    "name": "Lunchpad",
+    "id": 79
+  }
+]
