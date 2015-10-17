@@ -1,4 +1,4 @@
-class User 
+class User
   include Neo4j::ActiveNode
     #
     # Neo4j.rb needs to have property definitions before any validations. So, the property block needs to come before
@@ -9,9 +9,6 @@ class User
     #
 
      property :username, :type =>   String
-     property :facebook_token, :type => String
-     index :facebook_token
-
      property :created_at, :type => DateTime
      property :updated_at, :type => DateTime
 
@@ -58,7 +55,13 @@ class User
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :trackable, :validatable
+         :recoverable, :rememberable, :trackable, :validatable,
+         :omniauthable, :omniauth_providers => [:facebook]
 
+  has_many :in, :identities, origin: :user
 
+  def self.create_with_omniauth(auth)
+    find_or_create({ email: auth.info.email },
+      { password: Devise.friendly_token[0,20], username: auth.info.name })
+  end
 end

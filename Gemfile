@@ -26,8 +26,10 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'neo4j', '~> 5.0.0'
+gem 'neo4j', '~> 5.2.10'
 gem 'devise-neo4j'
+gem 'omniauth'
+gem 'omniauth-facebook'
 
 gem 'gate'
 gem 'responders'
