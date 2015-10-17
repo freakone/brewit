@@ -26,7 +26,6 @@
     * Sugar (2)
     * Adjunct (3)
     * Dry extract (4)
-* Potential [SG] (float)
 * Color [SRM] (integer)
 * Yield (float)
 * FG/CG (fine grain / coarse grain) (float)
