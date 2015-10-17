@@ -61,7 +61,7 @@
 * Best for (Styles list)
 * Notes (string)
 
-### Miscs ###
+### Adjuncts ###
 * Name (string)
 * Type (exclusive)
     * Spice (0)
@@ -72,11 +72,8 @@
     * Water Agent (5)
 * Unit (exclusive)
     * grams (1)
-    * liters (2 * 0.0295735)
-    * teaspoon (6)
-    * tablespoon (7)
+    * mililiters (2 * 29.5735 | 6 * 4,92892 | 7 * 14,7868)
     * pieces (13)
-    * cups
 * Notes (string)
 * Qty/l (float)
 * Use (exclusive)
@@ -113,3 +110,31 @@
 * FG min (float)
 * ABV max (float)
 * ABV min (float)
+
+### Receipe ###
+* Name (string)
+* Grain (list of grains)
+    * ammount [kg]
+* Type (exclusive)
+    * All Grain
+    * Partial-mash
+    * Extract
+* Hop (list of hops)
+    * Ammount [grams] (integer)
+    * Use (exclusive)
+        * Boil
+        * Dry Hop
+        * Mash
+        * First Wart
+    * Boli / Steep time [minutes] (integer)
+    * Dry hopping time [days] (integer)
+* Yeast (list of yeasts)
+    * Ammount [g] (integer)
+* Adjunct (List of adjuncts)
+    * Use during (exclusive)
+        * Boil
+        * Mash
+        * Primary fermentation
+        * Secundary Fermentation
+        * Bottling
+    * Time [minutes] (integer)
