@@ -1,18 +1,19 @@
-nav.top-bar role="navigation"
-  ul.title-area
-    li.name
-      h1: a href="#" Brewit
+.contain-to-grid
+  nav.top-bar role="navigation"
+    ul.title-area
+      li.name
+        h1: a href="#" Brewit
 
-    li.toggle-topbar.menu-icon
-      a href="#": span Menu
+      li.toggle-topbar.menu-icon
+        a href="#": span Menu
 
-  section.top-bar-section
-    ul.right
-      li: a href="#" Piwny Janusz
-      li: a href="#" Log out
+    section.top-bar-section
+      ul.right
+        li: a href="#" Piwny Janusz
+        li: a href="#" Log out
 
-    ul.left
-      li: a href="#" Home
+      ul.left
+        li: a href="#" Home
 
 .row
   img.columns.small-12 src="http://placehold.it/1200x200"
@@ -60,17 +61,53 @@ nav.top-bar role="navigation"
         button.button Or add new recipte
 
 .row
-  .columns.small-12
+  .columns.small-12.text-center
     .panel
       .row
         .columns.small-12.medium-3
-          img src="http://placehold.it/300x100"
+          img src="http://placehold.it/300x150"
 
-        .columns.small-12.medium-5.text-center
+        .columns.small-12.medium-6.text-center
           h2 Monterale
           p German/American Imperial Pale Ale
 
-          small Process: Malt Extract
-          small DDifficulty: Medium, 3h 30m
+          small> Process: Malt Extract
+          small< Difficulty: Medium, 3h 30m
 
         .columns.small-12.medium-3
+          .scale--heart
+            i.scale__element.fa.fa-heart
+            i.scale__element.fa.fa-heart
+            i.scale__element.fa.fa-heart
+            i.scale__element.fa.fa-heart-o
+            i.scale__element.fa.fa-heart-o
+
+    .panel
+      .row
+        .columns.small-12.medium-3
+          img src="http://placehold.it/300x150"
+
+        .columns.small-12.medium-6.text-center
+          h2 Monterale
+          p German/American Imperial Pale Ale
+
+          small> Process: Malt Extract
+          small< Difficulty: Medium, 3h 30m
+
+        .columns.small-12.medium-3
+          .scale--heart
+            i.scale__element.fa.fa-heart
+            i.scale__element.fa.fa-heart
+            i.scale__element.fa.fa-heart
+            i.scale__element.fa.fa-heart-o
+            i.scale__element.fa.fa-heart-o
+
+    .button.small Load more...
+
+.row
+  .columns.small-12.text-center
+    p
+      | Didn't find what you're looking for?
+      a<> href="#" Add it for our community
+      | |
+      a< href="#" Make a request
