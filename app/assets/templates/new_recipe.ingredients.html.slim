@@ -20,7 +20,7 @@
 
   .columns.small-12.medium-9
     .row
-      .columns.small-6
+      .columns.small-12.medium-6
         .panel.box
           label.box__label General settings
           span.box__selected Must set
@@ -30,7 +30,7 @@
             .columns.small-12.medium-6
               label
                 | Recipe type*
-                select ng-model="newRecipe.params.type"
+                select ng-model="ingredients.recipeIngredients.general.type"
                   option value="All grain" All grain
                   option value="Partial mash" Partial mash
                   option value="Extract" Extract
@@ -38,21 +38,20 @@
             .columns.small-12.medium-6
               label
                 | Boiling time (m)
-                input type="text" placeholder="60"
+                input type="text" placeholder="i.e. 60" ng-model="ingredients.recipeIngredients.general.boilingTime"
 
           .row
             .columns.small-12.medium-6
               label
                 | Batch volume (l)
-                input type="text" placeholder="20"
+                input type="text" placeholder="i.e. 20" ng-model="ingredients.recipeIngredients.general.batchVolume"
 
             .columns.small-12.medium-6
               label
                 | Yeast*
                 select(
-                  ng-options="yeast.id as yeast.name for yeast in ingredients.db.yeasts | orderBy:'name' track by yeast.id"
-                  ng-model="newRecipe.params.yeasts"
-                  ng-click="newRecipe.getIngredient('yeasts')"
+                  ng-options="yeast as yeast.name for yeast in ingredients.db.yeasts | orderBy:'name' track by yeast.id"
+                  ng-model="ingredients.recipeIngredients.yeasts.yeast"
                 )
 
           .row
@@ -61,59 +60,95 @@
                 | Name*
                 .row.collapse
                   .columns.small-6.medium-6
-                    input ng-model="newRecipe.params.name" type="text" placeholder="For example: Coffee Imperial Pale Ale with Irish Shit"
+                    input(
+                      ng-model="ingredients.recipeIngredients.general.name"
+                      type="text"
+                      placeholder="For example: Coffee Imperial Pale Ale with Irish Shit"
+                    )
                   .columns.small-6.medium-6
                     button.button.postfix.secondary Generate name
 
         .panel.box
-          label.box__label Grains
+          label.box__label Grains *
           span.box__selected Must select at least 1
           hr.box__hr
 
-          .row ng-repeat="recipeGrain in ingredients.recipeIngredients.grains track by $index"
+          / .row ng-repeat="recipeGrain in ingredients.recipeIngredients.grains track by $index"
+          /   .columns.small-12.medium-6
+          /     label
+          /       | Grains list
+          /       select(
+          /         ng-options="grain as grain.name group by grain.origin for grain in ingredients.db.grains track by grain.id"
+          /         ng-model="recipeGrain.grain"
+          /       )
+
+          /   .columns.small-12.medium-6
+          /     label
+          /       | % share
+          /       input type="text" ng-model="recipeGrain.share"
+
+          .row
             .columns.small-12.medium-6
               label
-                | Grains*
+                | Grains list
                 select(
-                  ng-options="grain.id as grain.name group by grain.origin for grain in ingredients.db.grains track by grain.id"
-                  ng-model="recipeGrain.id"
-                  ng-click="newRecipe.getIngredient('grains')"
+                  ng-options="grain as grain.name group by grain.origin for grain in ingredients.db.grains track by grain.id"
+                  ng-model="ingredients.recipeIngredients.grains.grain"
                 )
 
             .columns.small-12.medium-6
               label
                 | % share
-                input type="text" ng-model="recipeGrain.share"
+                input type="text" ng-model="ingredients.recipeIngredients.grains.share"
 
-          button.small.radius.secondary ng-click="ingredients.addGrain()" Save & add another grain
+          / .text-center
+          /   button.small.radius.secondary ng-click="ingredients.add('grains', ingredients.grainForm)" Save & add another grain
 
       .columns.small-12.medium-6
         .panel.box
-          label.box__label Hops
+          label.box__label Hops *
           span.box__selected Must select at least 1
           hr.box__hr
+
+          / .row ng-repeat="recipeHop in ingredients.recipeIngredients.hops track by $index"
+          /   .columns.small-12.medium-6
+          /     label
+          /       | Hops
+          /       select(
+          /         ng-options="hop as hop.name group by hop.origin for hop in ingredients.db.hops track by hop.id"
+          /         ng-model="ingredients.hopForm.hop"
+          /       )
+
+          /   .columns.small-12.medium-3
+          /     label
+          /       | Boil time
+          /       input ng-model="recipeHop.boilTime" type="text"
+
+          /   .columns.small-12.medium-3
+          /     label
+          /       | Weight (g)
+          /       input ng-model="recipeHop.weight" type="text"
 
           .row
             .columns.small-12.medium-6
               label
-                | Hops*
+                | Hops
                 select(
-                  ng-options="hop.id as hop.name group by hop.origin for hop in ingredients.db.hops track by hop.id"
-                  ng-model="newRecipe.params.hops"
-                  ng-click="newRecipe.getIngredient('hops')"
+                  ng-options="hop as hop.name group by hop.origin for hop in ingredients.db.hops track by hop.id"
+                  ng-model="ingredients.recipeIngredients.hops.hop"
                 )
 
             .columns.small-12.medium-3
               label
                 | Boil time
-                input type="text"
+                input ng-model="ingredients.recipeIngredients.hops.boilTime" type="text"
 
             .columns.small-12.medium-3
               label
                 | Weight (g)
-                input type="text"
+                input ng-model="ingredients.recipeIngredients.hops.weight" type="text"
 
-          button.small.radius.secondary Add another hop
+          / button.small.radius.secondary ng-click="ingredients.add('hops', ingredients.form.hop)" Add another hop
 
         .panel.box
           label.box__label Add-ons
@@ -124,11 +159,10 @@
             | Add-ons*
             select(
               ng-options="adjunct.id as adjunct.name group by adjunct.use_for for adjunct in ingredients.db.adjuncts track by adjunct.id"
-              ng-model="newRecipe.params.hops"
-              ng-click="newRecipe.getIngredient('hops')"
+              ng-model="ingredients.recipeIngredients.adjuncts.adjunct"
             )
 
-          button.small.radius.secondary Add another add-on
+          / button.small.radius.secondary Add another add-on
 
     .row
       .columns.small-12.medium-6
@@ -136,4 +170,4 @@
 
 .row
   .columns.small-12.text-center
-    button.button.medium.radius ui-sref="newRecipe.process" Next step
+    button.button.medium.radius ui-sref="newRecipe.process" ng-click="ingredients.setIngredients()" Next step

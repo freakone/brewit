@@ -4,23 +4,15 @@ angular.module('brewit')
 
   @db = ingredients
 
-  @recipeIngredients =
-    grains: [
-      {
-        id: undefined
-        share: 100
-      }
-    ]
+  getCurrentRecipeIngredients = =>
+    @recipeIngredients = Recipe.getIngredients()
 
-  clearForm = =>
-    @grainForm =
-      id: undefined
-      share: undefined
+  setCurrentRecipeIngredients = =>
+    Recipe.setIngredients(@recipeIngredients)
 
-  @addGrain = =>
-    @recipeIngredients.grains.push(@grainForm)
-    # clearForm()
+  @nextStep = ->
+    setCurrentRecipeIngredients()
 
-  clearForm()
+  getCurrentRecipeIngredients()
 
   return false
