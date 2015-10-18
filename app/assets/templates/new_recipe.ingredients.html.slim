@@ -1,108 +1,139 @@
-.content
-  .row
-    .columns.small-12.medium-6
-      label
-        | Type*
-        select ng-model="newRecipe.params.type"
-          option value="All grain" All grain
-          option value="Partial mash" Partial mash
-          option value="Extract" Extract
-    .columns.small-12.medium-6
-      label
-        | Yeast*
-        select(
-          ng-options="yeast.id as yeast.name group by yeast.type for yeast in newRecipe.ingredients.yeasts track by yeast.id"
-          ng-model="newRecipe.params.yeasts"
-          ng-click="newRecipe.getIngredient('yeasts')"
-        )
-  .row
-    .columns.small-12.medium-6
-      label
-        | Grains*
-        select(
-          ng-options="grain.id as grain.name group by grain.origin for grain in newRecipe.ingredients.grains track by grain.id"
-          ng-model="newRecipe.params.grains"
-          ng-click="newRecipe.getIngredient('grains')"
-        )
-    .columns.small-12.medium-6
-      label
-        | Hops*
-        select(
-          ng-options="hop.id as hop.name group by hop.type for hop in newRecipe.ingredients.hops track by hop.id"
-          ng-model="newRecipe.params.hops"
-          ng-click="newRecipe.getIngredient('hops')"
-        )
-  .row
-    .columns.small-12.medium-6
-      label
-        | Add-ons*
-        input ng-model="newRecipe.params.add_ons" type="text" placeholder="For example: Irish Shit, Vodka"
-    .columns.small-12.medium-6
-      label
-        | Name*
-        .row.collapse
-          .columns.small-6.medium-8
-            input ng-model="newRecipe.params.name" type="text" placeholder="For example: Coffee Imperial Pale Ale with Irish Shit"
-          .columns.small-6.medium-4
-            button.button.postfix Generate name
-  .row
-    .columns.small-12
-      label
-        | Overall Impression:
-        textarea ng-model="newRecipe.params.impression" placeholder="For example: American Imperial Pale Ale"
+.row
+  .columns.small-12.medium-3
+    .row
+      .columns.small-12
+        .panel.box
+          label.box__label Preview
+          hr.box__hr
+          img src="http://lorempixel.com/300/600/cats/"
 
-  ul.small-block-grid-2.medium-block-grid-5
-    li
-      label
-        | Taste
-        select ng-model="newRecipe.params.taste"
-          option value="0" 0
-          option value="1" 1
-          option value="2" 2
-          option value="3" 3
-          option value="4" 4
-          option value="5" 5
-    li
-      label
-        | Bitterness
-        select ng-model="newRecipe.params.bitterness"
-          option value="0" 0
-          option value="1" 1
-          option value="2" 2
-          option value="3" 3
-          option value="4" 4
-          option value="5" 5
-    li
-      label
-        | Aroma
-        select ng-model="newRecipe.params.aroma"
-          option value="0" 0
-          option value="1" 1
-          option value="2" 2
-          option value="3" 3
-          option value="4" 4
-          option value="5" 5
-    li
-      label
-        | Foam
-        select ng-model="newRecipe.params.foam"
-          option value="0" 0
-          option value="1" 1
-          option value="2" 2
-          option value="3" 3
-          option value="4" 4
-          option value="5" 5
-    li
-      label
-        | Purity
-        select ng-model="newRecipe.params.purity"
-          option value="0" 0
-          option value="1" 1
-          option value="2" 2
-          option value="3" 3
-          option value="4" 4
-          option value="5" 5
+          .row.text-center
+            .columns.small-12.medium-4
+              h1 45
+              small Desc
+            .columns.small-12.medium-4
+              h1 45
+              small Desc
+            .columns.small-12.medium-4
+              h1 45
+              small Desc
 
-  .row
-    .columns.small-12.text-center
-      button.button.medium.radius.secondary ng-click="newRecipe.page = 3" Next step
+  .columns.small-12.medium-9
+    .row
+      .columns.small-6
+        .panel.box
+          label.box__label General settings
+          span.box__selected Must set
+          hr.box__hr
+
+          .row
+            .columns.small-12.medium-6
+              label
+                | Recipe type*
+                select ng-model="newRecipe.params.type"
+                  option value="All grain" All grain
+                  option value="Partial mash" Partial mash
+                  option value="Extract" Extract
+
+            .columns.small-12.medium-6
+              label
+                | Boiling time (m)
+                input type="text" placeholder="60"
+
+          .row
+            .columns.small-12.medium-6
+              label
+                | Batch volume (l)
+                input type="text" placeholder="20"
+
+            .columns.small-12.medium-6
+              label
+                | Yeast*
+                select(
+                  ng-options="yeast.id as yeast.name for yeast in ingredients.db.yeasts | orderBy:'name' track by yeast.id"
+                  ng-model="newRecipe.params.yeasts"
+                  ng-click="newRecipe.getIngredient('yeasts')"
+                )
+
+          .row
+            .columns.small-12
+              label
+                | Name*
+                .row.collapse
+                  .columns.small-6.medium-6
+                    input ng-model="newRecipe.params.name" type="text" placeholder="For example: Coffee Imperial Pale Ale with Irish Shit"
+                  .columns.small-6.medium-6
+                    button.button.postfix.secondary Generate name
+
+        .panel.box
+          label.box__label Grains
+          span.box__selected Must select at least 1
+          hr.box__hr
+
+          .row ng-repeat="recipeGrain in ingredients.recipeIngredients.grains track by $index"
+            .columns.small-12.medium-6
+              label
+                | Grains*
+                select(
+                  ng-options="grain.id as grain.name group by grain.origin for grain in ingredients.db.grains track by grain.id"
+                  ng-model="recipeGrain.id"
+                  ng-click="newRecipe.getIngredient('grains')"
+                )
+
+            .columns.small-12.medium-6
+              label
+                | % share
+                input type="text" ng-model="recipeGrain.share"
+
+          button.small.radius.secondary ng-click="ingredients.addGrain()" Save & add another grain
+
+      .columns.small-12.medium-6
+        .panel.box
+          label.box__label Hops
+          span.box__selected Must select at least 1
+          hr.box__hr
+
+          .row
+            .columns.small-12.medium-6
+              label
+                | Hops*
+                select(
+                  ng-options="hop.id as hop.name group by hop.origin for hop in ingredients.db.hops track by hop.id"
+                  ng-model="newRecipe.params.hops"
+                  ng-click="newRecipe.getIngredient('hops')"
+                )
+
+            .columns.small-12.medium-3
+              label
+                | Boil time
+                input type="text"
+
+            .columns.small-12.medium-3
+              label
+                | Weight (g)
+                input type="text"
+
+          button.small.radius.secondary Add another hop
+
+        .panel.box
+          label.box__label Add-ons
+          span.box__selected Optional
+          hr.box__hr
+
+          label
+            | Add-ons*
+            select(
+              ng-options="adjunct.id as adjunct.name group by adjunct.use_for for adjunct in ingredients.db.adjuncts track by adjunct.id"
+              ng-model="newRecipe.params.hops"
+              ng-click="newRecipe.getIngredient('hops')"
+            )
+
+          button.small.radius.secondary Add another add-on
+
+    .row
+      .columns.small-12.medium-6
+      .columns.small-12.medium-6
+
+.row
+  .columns.small-12.text-center
+    button.button.medium.radius ui-sref="newRecipe.process" Next step

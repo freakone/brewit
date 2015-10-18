@@ -1,16 +1,10 @@
 angular.module('brewit')
 .controller 'NewRecipeController',
-(Recipe, Styles, $state, ingredients) ->
+(Recipe, Styles, $state) ->
 
   class Step
     constructor: (@id, @description, @duration, @requirements) ->
       @shortDesc = "Step: #{@id}, #{@description.slice(0, 40)}"
-
-  @ingredients =
-    grains: []
-    yeasts: []
-    hops: []
-    add_ons: []
 
   @isLoading = false
 

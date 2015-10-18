@@ -1,6 +1,6 @@
-.content
-  .row
-    .columns.small-12.medium-6
+.row
+  .columns.small-12.medium-6
+    .content.box
       h2 One by one steps
       .panel ng-repeat="step in newRecipe.params.recipe_by_step track by $index"
         h4
@@ -33,3 +33,7 @@
 
 
       button.button.tiny.secondary ng-click="newRecipe.addStep()" Add another step
+
+.row
+  .columns.small-12.text-center
+    button.button.large.radius ng-disabled="true" ng-click="newRecipe.saveRecipe()" Save recipe

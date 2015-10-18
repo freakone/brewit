@@ -3,8 +3,8 @@ module Api
     class IngredientsController < ApiController
       def index
         render json: {
-          yeast: Yeast.all.map(&:attributes),
-          malts: Grain.all.map(&:attributes),
+          yeasts: Yeast.all.map(&:attributes),
+          grains: Grain.all.map(&:attributes),
           hops: Hop.all.map(&:attributes),
           adjuncts: Adjunct.all.map(&:attributes)
         }

@@ -10,11 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
  */
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,700&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Sansita+One&subset=latin,latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Merriweather&subset=latin,latin-ext');
 
@@ -62,13 +61,12 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+@import "components/box";
 @import "components/scale";
 @import "components/header";
 @import "components/spinner";
 
 
-// TODO: To by moved
-.page {
-  background-color: #fff;
-  box-shadow: 0 1px 1px #ccc
+.top-bar--custom {
+  border-top: 3px solid $primary-color;
 }

@@ -1,26 +1,20 @@
-.row.header.header--beer
+.header.header--beer
   h1.h1.text-center Create new recipe
   h3.h3.text-center Save the good, for the future
 
-.row.page
-  .columns.small-12
-    .row
-      ui.tabs
-        li.tab-title ng-class="{ 'active': newRecipe.page === 1 }"
-          a ui-sref="newRecipe.style" 1. Style
-        li.tab-title ng-class="{ 'active': newRecipe.page === 2 }"
-          a ui-sref="newRecipe.ingredients" 2. Ingredients
-        li.tab-title ng-class="{ 'active': newRecipe.page === 3 }"
-          a ui-sref="newRecipe.process" 3. Process
+.row
+  .column
+    ui.tabs
+      li.tab-title ui-sref-active="active"
+        a ui-sref="newRecipe.style" 1. Style
+      li.tab-title ui-sref-active="active"
+        a ui-sref="newRecipe.ingredients" 2. Ingredients
+      li.tab-title ui-sref-active="active"
+        a ui-sref="newRecipe.process" 3. Process
 
-    .tabs-content
-      div spinner="newRecipe.isLoading" message="Washing mugs. Pouring beer. Please wait!"
-      ui-view
+    / div spinner="newRecipe.isLoading" message="Washing mugs. Pouring beer. Please wait!"
+    ui-view
 
-
-      .row
-        .columns.small-12.text-center
-          button.button.large.radius ng-click="newRecipe.saveRecipe()" Save recipe
 .row
   .columns.small-12.text-center
     p
