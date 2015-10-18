@@ -1,0 +1,19 @@
+.content
+  h1 First pick desired style category
+  ul.small-block-grid-2.medium-block-grid-4.large-block-grid-6
+    li.pick-box__element ng-repeat="category in newRecipe.styleCategories track by $index"
+      a
+        img src="http://placehold.it/150x150"
+        span ng-bind="category"
+
+  label
+    | or select from list:
+    select(
+      ng-options="style.id as style.name group by style.category for style in newRecipe.styles track by style.id"
+      ng-model="newRecipe.params.style"
+    )
+
+
+  .row
+    .columns.small-12.text-center
+      button.button.medium.radius.secondary ng-click="newRecipe.page = 2" Next step

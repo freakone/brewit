@@ -1,0 +1,35 @@
+.content
+  .row
+    .columns.small-12.medium-6
+      h2 One by one steps
+      .panel ng-repeat="step in newRecipe.params.recipe_by_step track by $index"
+        h4
+          | Step: {{ $index + 1}}
+        .row
+          .columns.small-12
+            label Description
+            p ng-bind="step.description"
+        .row
+          .columns.small-6
+            p
+              | Duration: {{ step.duration }}
+          .columns.small-6
+            p
+              | Requirements: {{ step.requirements }}
+
+      label
+        | Step description
+        textarea ng-model="newRecipe.stepForm.description"
+
+      .row
+        .columns.small-6
+          label
+            | Step duration
+            input type="text" ng-model="newRecipe.stepForm.duration"
+        .columns.small-6
+          label
+            | Step requirements
+            select ng-disabled="newRecipe.params.recipe_by_step.length == 0" ng-model="newRecipe.stepForm.requirements" ng-options="step.id as step.shortDesc for step in newRecipe.params.recipe_by_step"
+
+
+      button.button.tiny.secondary ng-click="newRecipe.addStep()" Add another step

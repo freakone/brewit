@@ -1,7 +1,6 @@
 angular.module('brewit')
 .controller 'NewRecipeController',
-(Recipe, Ingredients, Styles, $state, $q, ingredients) ->
-  console.log ingredients
+(Recipe, Styles, $state, ingredients) ->
 
   class Step
     constructor: (@id, @description, @duration, @requirements) ->
@@ -12,6 +11,8 @@ angular.module('brewit')
     yeasts: []
     hops: []
     add_ons: []
+
+  @isLoading = false
 
   @styles = []
 
@@ -66,21 +67,6 @@ angular.module('brewit')
       duration: ''
       requirements: ''
 
-  @getIngredient = (Ingredient) =>
-    if !@ingredients[Ingredient].length
-      Ingredients.get(Ingredient)
-        .success (response) =>
-          @ingredients[Ingredient] = response
-        .error ->
-          console.log 'Couldnt get ingredients'
-
-  # If we would need to load many things at once. This is f*cking ugly btw.
-  getIngredients = (ingredientsList) =>
-    ingredientsPromises = Ingredients.getMultiple(ingredientsList)
-    $q.all(ingredientsPromises).then (results) =>
-      for ingredient, _index in ingredientsList
-        @ingredients[ingredient] = results[_index].data
-
   getStyles = =>
     Styles.get()
       .success (response) =>
@@ -98,6 +84,5 @@ angular.module('brewit')
         $state.go('recipe', { recipeId: 1 })
 
   getStyles()
-  getIngredients(['hops', 'grains', 'yeasts'])
 
   return false

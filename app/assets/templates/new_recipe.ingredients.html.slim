@@ -1,0 +1,108 @@
+.content
+  .row
+    .columns.small-12.medium-6
+      label
+        | Type*
+        select ng-model="newRecipe.params.type"
+          option value="All grain" All grain
+          option value="Partial mash" Partial mash
+          option value="Extract" Extract
+    .columns.small-12.medium-6
+      label
+        | Yeast*
+        select(
+          ng-options="yeast.id as yeast.name group by yeast.type for yeast in newRecipe.ingredients.yeasts track by yeast.id"
+          ng-model="newRecipe.params.yeasts"
+          ng-click="newRecipe.getIngredient('yeasts')"
+        )
+  .row
+    .columns.small-12.medium-6
+      label
+        | Grains*
+        select(
+          ng-options="grain.id as grain.name group by grain.origin for grain in newRecipe.ingredients.grains track by grain.id"
+          ng-model="newRecipe.params.grains"
+          ng-click="newRecipe.getIngredient('grains')"
+        )
+    .columns.small-12.medium-6
+      label
+        | Hops*
+        select(
+          ng-options="hop.id as hop.name group by hop.type for hop in newRecipe.ingredients.hops track by hop.id"
+          ng-model="newRecipe.params.hops"
+          ng-click="newRecipe.getIngredient('hops')"
+        )
+  .row
+    .columns.small-12.medium-6
+      label
+        | Add-ons*
+        input ng-model="newRecipe.params.add_ons" type="text" placeholder="For example: Irish Shit, Vodka"
+    .columns.small-12.medium-6
+      label
+        | Name*
+        .row.collapse
+          .columns.small-6.medium-8
+            input ng-model="newRecipe.params.name" type="text" placeholder="For example: Coffee Imperial Pale Ale with Irish Shit"
+          .columns.small-6.medium-4
+            button.button.postfix Generate name
+  .row
+    .columns.small-12
+      label
+        | Overall Impression:
+        textarea ng-model="newRecipe.params.impression" placeholder="For example: American Imperial Pale Ale"
+
+  ul.small-block-grid-2.medium-block-grid-5
+    li
+      label
+        | Taste
+        select ng-model="newRecipe.params.taste"
+          option value="0" 0
+          option value="1" 1
+          option value="2" 2
+          option value="3" 3
+          option value="4" 4
+          option value="5" 5
+    li
+      label
+        | Bitterness
+        select ng-model="newRecipe.params.bitterness"
+          option value="0" 0
+          option value="1" 1
+          option value="2" 2
+          option value="3" 3
+          option value="4" 4
+          option value="5" 5
+    li
+      label
+        | Aroma
+        select ng-model="newRecipe.params.aroma"
+          option value="0" 0
+          option value="1" 1
+          option value="2" 2
+          option value="3" 3
+          option value="4" 4
+          option value="5" 5
+    li
+      label
+        | Foam
+        select ng-model="newRecipe.params.foam"
+          option value="0" 0
+          option value="1" 1
+          option value="2" 2
+          option value="3" 3
+          option value="4" 4
+          option value="5" 5
+    li
+      label
+        | Purity
+        select ng-model="newRecipe.params.purity"
+          option value="0" 0
+          option value="1" 1
+          option value="2" 2
+          option value="3" 3
+          option value="4" 4
+          option value="5" 5
+
+  .row
+    .columns.small-12.text-center
+      button.button.medium.radius.secondary ng-click="newRecipe.page = 3" Next step
