@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/seuros/capistrano-puma.git
+  revision: 6a7420a2245b76e6c285e32234cadb2f45c4e0d9
+  branch: master
+  specs:
+    capistrano3-puma (1.2.2)
+      capistrano (~> 3.0)
+      puma (>= 2.6)
+
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -76,9 +85,6 @@ GEM
     capistrano-secrets-yml (1.0.0)
       capistrano (>= 3.1)
       sshkit (>= 1.2.0)
-    capistrano3-puma (1.2.1)
-      capistrano (~> 3.0)
-      puma (>= 2.6)
     celluloid (0.17.2)
       celluloid-essentials
       celluloid-extras
@@ -333,7 +339,7 @@ DEPENDENCIES
   capistrano-rails
   capistrano-rvm
   capistrano-secrets-yml (~> 1.0.0)
-  capistrano3-puma
+  capistrano3-puma!
   coffee-rails (~> 4.1.0)
   devise-neo4j
   font-awesome-sass (~> 4.4.0)
