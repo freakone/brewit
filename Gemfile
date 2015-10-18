@@ -11,6 +11,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'foundation-rails', '~> 5.5.3.2'
 gem 'font-awesome-sass', '~> 4.4.0'
 gem 'angular-rails-templates',  '~> 0.2.0'
+gem 'ngannotate-rails', '~> 1.0.3'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-angular',             '~> 1.4.7'
