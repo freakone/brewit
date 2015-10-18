@@ -6,7 +6,7 @@ set :application,     'brewit'
 set :user,            'deployer'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
-set :puma_conf,       "#{shared_path}/puma.rb"
+set :puma_conf,       -> { "#{shared_path}/puma.rb" }
 
 # Don't change these unless you know what you're doing
 set :pty,             true
