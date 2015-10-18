@@ -1,6 +1,7 @@
 angular.module('brewit')
 .controller 'NewRecipeController',
-(Recipe, Ingredients, Styles, $state, $q) ->
+(Recipe, Ingredients, Styles, $state, $q, ingredients) ->
+  console.log ingredients
 
   class Step
     constructor: (@id, @description, @duration, @requirements) ->

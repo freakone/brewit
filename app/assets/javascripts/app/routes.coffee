@@ -20,3 +20,6 @@ angular.module('brewit')
       url: '/app/recipe/new'
       controller: 'NewRecipeController as newRecipe'
       templateUrl: 'new_recipe.html'
+      resolve:
+        ingredients: (Ingredients) ->
+          Ingredients.fetch()

@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   namespace :api, defaults: { format: :json } do
     namespace :internal do
-      resources :beta_users, only: [:index, :create]
+      resources :ingredients, only: [:index]
     end
   end
 
