@@ -1,6 +1,7 @@
 class Style
   include Neo4j::ActiveNode
 
+  property :id, type: String
   property :name, type: String
   property :subcategory, type: String
   property :aroma, type: String

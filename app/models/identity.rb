@@ -1,6 +1,7 @@
 class Identity
   include Neo4j::ActiveNode
 
+  property :id, type: String
   property :uid, type: String
   property :provider, type: String
 

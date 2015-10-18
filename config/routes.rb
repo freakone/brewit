@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   namespace :api, defaults: { format: :json } do
     namespace :internal do
       resources :ingredients, only: [:index]
+      resources :style_categories, only: [:index, :show]
     end
   end
 

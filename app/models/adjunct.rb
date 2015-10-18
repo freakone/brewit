@@ -1,6 +1,7 @@
 class Adjunct
   include Neo4j::ActiveNode
 
+  property :id, type: String
   property :name, type: String
   property :notes, type: String
   property :use_for, type: String

@@ -1,6 +1,7 @@
 class Hop
   include Neo4j::ActiveNode
 
+  property :id, type: String
   property :name, type: String
   property :origin, type: String
   property :alpha_acids, type: Float

@@ -1,9 +1,9 @@
 class Yeast
   include Neo4j::ActiveNode
 
+  property :id, type: String
   property :name, type: String
   property :lab, type: String
-  property :id, type: String
   property :min_attenuation, type: Float
   property :max_attenuation, type: Float
   property :min_temperature, type: Float
