@@ -44,4 +44,6 @@ AdjunctType.create!(name: "other", value: 4)
 AdjunctType.create!(name: "water_agent", value: 5)
 
 AdjunctUnit.delete_all
-AdjunctUnit.create!(name: "grams", value: 0)
+AdjunctUnit.create!(name: "grams", values: [1])
+AdjunctUnit.create!(name: "mililiters", values: [2, 6, 7])
+AdjunctUnit.create!(name: "pieces", values: [13])

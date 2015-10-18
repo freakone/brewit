@@ -21,5 +21,5 @@ class Style
   property :abv_max, type: Float
   property :abv_min, type: Float
 
-  has_one :out, :category, type: :HAS_CATEGORY, model_class: "StyleCategory"
+  has_one :out, :category, type: :HAS_STYLE_CATEGORY, model_class: "StyleCategory"
 end

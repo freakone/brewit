@@ -12,5 +12,5 @@ class Grain
   property :max, type: Float
   property :notes, type: String
 
-  has_one :out, :type, type: :HAS_TYPE, model_class: "GrainType"
+  has_one :out, :type, type: :HAS_GRAIN_TYPE, model_class: "GrainType"
 end

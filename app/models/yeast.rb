@@ -10,7 +10,7 @@ class Yeast
   property :max_temperature, type: Float
   property :notes, type: String
 
-  has_one :out, :type, type: :HAS_TYPE, model_class: "YeastType"
-  has_one :out, :form, type: :HAS_FORM, model_class: "YeastForm"
-  has_one :out, :flocculation, type: :HAS_FLOCCULATION, model_class: "YeastFlocculation"
+  has_one :out, :type, type: :HAS_YEAST_TYPE, model_class: "YeastType"
+  has_one :out, :form, type: :HAS_YEAST_FORM, model_class: "YeastForm"
+  has_one :out, :flocculation, type: :HAS_YEAST_FLOCCULATION, model_class: "YeastFlocculation"
 end
