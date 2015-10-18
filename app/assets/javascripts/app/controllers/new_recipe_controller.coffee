@@ -14,6 +14,21 @@ angular.module('brewit')
 
   @styles = []
 
+  @styleCategories = [
+    "stout",
+    "pilsner",
+    "scottish and irish ale",
+    "dark lager",
+    "belgian and french ale",
+    "german wheat and rye beer",
+    "american ale",
+    "english pale ale",
+    "porter",
+    "european amber lager",
+    "bock",
+    "fruit beer"
+  ]
+
   @page = 1
 
   @stepForm =
@@ -55,7 +70,8 @@ angular.module('brewit')
       Ingredients.get(Ingredient)
         .success (response) =>
           @ingredients[Ingredient] = response
-
+        .error ->
+          console.log 'Couldnt get ingredients'
 
   # If we would need to load many things at once. This is f*cking ugly btw.
   getIngredients = (ingredientsList) =>
@@ -64,16 +80,12 @@ angular.module('brewit')
       for ingredient, _index in ingredientsList
         @ingredients[ingredient] = results[_index].data
 
-  getIngredients(['hops', 'grains', 'yeasts'])
-
   getStyles = =>
     Styles.get()
       .success (response) =>
         @styles = response
       .error ->
         console.log "Błąd, dupa i kamieni kupa."
-
-  getStyles()
 
   @saveRecipe = =>
     Recipe.create(@params)
@@ -83,5 +95,8 @@ angular.module('brewit')
         console.log 'Nie zapisano recepty. :('
         # TODO: remove this below
         $state.go('recipe', { recipeId: 1 })
+
+  getStyles()
+  getIngredients(['hops', 'grains', 'yeasts'])
 
   return false

@@ -1,7 +1,8 @@
 .row
-  img.columns.small-12 src="http://lorempixel.com/1200/200/cats/"
+  img src="http://lorempixel.com/1200/200/cats/"
 
-.row
+
+.row.page
   .columns.small-12
     label
       | Search
@@ -46,38 +47,38 @@
       .columns.small-12.text-center
         a.button ui-sref="newRecipe" Or add new recipte
 
-.row
-  .columns.small-12.text-center
-    .panel ng-repeat="recipe in dashboard.recipes | filter:{name:dashboard.searchQuery, hops:dashboard.searchHop}"
-      .row
-        .columns.small-12.medium-3
-          a ui-sref="recipe({ recipeId: recipe.id })"
-            img ng-src="{{recipe.picture}}"
+    .row
+      .columns.small-12.text-center
+        .panel ng-repeat="recipe in dashboard.recipes | filter:{name:dashboard.searchQuery, hops:dashboard.searchHop}"
+          .row
+            .columns.small-12.medium-3
+              a ui-sref="recipe({ recipeId: recipe.id })"
+                img ng-src="{{recipe.picture}}"
 
-        .columns.small-12.medium-6.text-center
-          a ui-sref="recipe({ recipeId: recipe.id })"
-            h2 ng-bind="::recipe.name"
-          p ng-bind="::recipe.user_style"
+            .columns.small-12.medium-6.text-center
+              a ui-sref="recipe({ recipeId: recipe.id })"
+                h2 ng-bind="::recipe.name"
+              p ng-bind="::recipe.user_style"
 
-          small> ng-bind="::recipe.process"
-          small< ng-bind="::recipe.diffculty"
+              small> ng-bind="::recipe.process"
+              small< ng-bind="::recipe.diffculty"
 
-        .columns.small-12.medium-3
-          .scale--heart
-            / TODO: Fix this crappy solution
-            i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 0, 'fa-heart-o': recipe.score < 1 }"
-            i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 1, 'fa-heart-o': recipe.score < 2 }"
-            i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 2, 'fa-heart-o': recipe.score < 3 }"
-            i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 3, 'fa-heart-o': recipe.score < 4 }"
-            i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 4, 'fa-heart-o': recipe.score < 5 }"
+            .columns.small-12.medium-3
+              .scale--heart
+                / TODO: Fix this crappy solution
+                i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 0, 'fa-heart-o': recipe.score < 1 }"
+                i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 1, 'fa-heart-o': recipe.score < 2 }"
+                i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 2, 'fa-heart-o': recipe.score < 3 }"
+                i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 3, 'fa-heart-o': recipe.score < 4 }"
+                i.scale__element.fa ng-class="{ 'fa-heart': recipe.score > 4, 'fa-heart-o': recipe.score < 5 }"
 
 
-    .button.small Load more...
+        .button.small Load more...
 
-.row
-  .columns.small-12.text-center
-    p
-      | Didn't find what you're looking for?
-      a<> href="#" Add it for our community
-      | |
-      a< href="#" Make a request
+    .row
+      .columns.small-12.text-center
+        p
+          | Didn't find what you're looking for?
+          a<> href="#" Add it for our community
+          | |
+          a< href="#" Make a request
