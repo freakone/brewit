@@ -3,8 +3,8 @@
 ## Setup ##
 
 * cp config/secrets.yml.example config/secrets.yml
-* set development values in secrets.yml (for values ask @paulo)
-* run ssh -L 7474:localhost:7474 deployer@brewit.pl (for credentials ask @paulo)
+* set development values in secrets.yml (for values ask @tupaja)
+* run ssh -L 7474:localhost:7474 deployer@brewit.pl (for credentials ask @tupaja)
 
 ## Models ##
 
