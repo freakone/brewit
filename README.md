@@ -1,5 +1,13 @@
 # README #
 
+## Setup ##
+
+* cp config/secrets.yml.example config/secrets.yml
+* set development values in secrets.yml (for values ask @paulo)
+* run ssh -L 7474:localhost:7474 deployer@brewit.pl (for credentials ask @paulo)
+
+## Models ##
+
 ### Hop ###
 * Name (string)
 * Origin (string)
