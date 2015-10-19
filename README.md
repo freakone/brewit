@@ -113,6 +113,7 @@
 
 ### Receipe ###
 * Name (string)
+* Authoers (list of users)
 * Target Volume [liters] (integer)
 * Grain (list of grains)
     * ammount [kg]
