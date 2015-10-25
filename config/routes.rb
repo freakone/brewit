@@ -11,6 +11,7 @@ Rails.application.routes.draw do
     namespace :internal do
       resources :ingredients, only: [:index]
       resources :style_categories, only: [:index, :show]
+      resources :recipes, only: [:create]
     end
   end
 
