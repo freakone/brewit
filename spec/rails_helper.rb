@@ -17,12 +17,18 @@ RSpec.configure do |config|
   config.extend ControllerMacros, :type => :controller
 
   config.before(:suite) do
-    DatabaseCleaner[:neo4j].strategy = :transaction
+    DatabaseCleaner[:neo4j,
+      connection: {
+        type: :server_db,
+        path: Rails.application.secrets.neo4j["url"]
+      }
+    ].strategy = :transaction
+
     DatabaseCleaner[:neo4j].clean_with(:truncation)
   end
 
   config.around(:each) do |example|
-    DatabaseCleaner[:neo4j].cleaning do
+    DatabaseCleaner.cleaning do
       example.run
     end
   end
